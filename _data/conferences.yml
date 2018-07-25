@@ -11,6 +11,16 @@
   place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
   sub: ML
 
+- name: CHI
+  year: 2019
+  id: chi19
+  link: http://chi2019.acm.org/
+  deadline: "2018-09-14 11:59:59"
+  timezone: Etc/GMT-7
+  date: May 4 - May 9, 2019
+  place: Glasgow,UK
+  sub: HCI
+
 - name: ICRA
   year: 2019
   id: icra2019

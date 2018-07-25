@@ -1,15 +1,15 @@
-title: AI Conference Deadlines # (Maintained by @abhshkdz)
-# email: abhshkdz@vt.edu
-description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines
-author: Abhishek Das
+title: Conference Deadlines # (Maintained by @cassens)
+# email: github@cassens.org
+description: Countdowns to top AI, HCI, SFL, Ambient Systems, Context conference deadlines
+author: Joerg Cassens
 
-domain: "aideadlin.es"
+domain: "conferences.kriwi.de"
 baseurl: ""
 
-twitter_username: abhshkdz
+twitter_username: cassens
 twitter_hashtag: machinelearning
-github_username: abhshkdz
-github_repo: ai-deadlines
+github_username: cassens
+github_repo: conferences
 
 markdown: kramdown
 ga_id: UA-36274081-2

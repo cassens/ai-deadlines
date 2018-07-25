@@ -9,3 +9,11 @@
   sub: RO
 - name: Speech/SigProc
   sub: SP
+- name: AI
+  sub: Artificial Intelligence
+- name: HCI
+  sub: Human-Computer Interaction
+- name: SFL
+  sub: Systemic-Functional Theory of Language
+- name: AMI
+  sub: Ambient Systems
