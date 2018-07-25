@@ -18,14 +18,20 @@ To add or update information:
 - [geodeadlin.es][3] by @LukasMosser
 - [neuro-deadlines][4] by @tbryn
 - [ai-challenge-deadlines][5] by @dieg0as
+- [https://jackietseng.github.io/conference_call_for_paper/][7] by @jackietseng
+- [http://cgcad.thss.tsinghua.edu.cn/liuyushen/cfp/2018-2019-conferences.html][8]
+- [http://wikicfp.com/][9]
 
 ## License
 
 [MIT][1]
 
 [1]: https://abhshkdz.mit-license.org/
-[6]: https://github.com/abhshkdz/ai-deadlines
 [2]: http://aideadlin.es/
 [3]: http://geodeadlin.es/
 [4]: https://github.com/tbryn/neuro-deadlines
 [5]: https://github.com/dieg0as/ai-challenge-deadlines
+[6]: https://github.com/abhshkdz/ai-deadlines
+[7]: https://jackietseng.github.io/conference_call_for_paper/
+[8]: http://cgcad.thss.tsinghua.edu.cn/liuyushen/cfp/2018-2019-conferences.html
+[9]: http://wikicfp.com/

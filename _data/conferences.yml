@@ -34,13 +34,24 @@
 
 - name: NAACL
   year: 2019
-  id: naacl19
+  id: naacl2019
   link: http://naacl2019.org/
   deadline: TBA
   timezone: Etc/GMT+12
   date: June 2-7, 2019
   place: Minneapolis, USA
   sub: NLP
+
+- name: ICMR
+  longname: ACM International Conference on Multimedia Retrieval
+  year: 2019
+  id: icmr2019
+  link: http://www.icmr2019.org/
+  deadline: TBA
+  timezone: Etc/GMT+12
+  date: June 10-13, 2019
+  place: Ottawa, Canada
+  sub: MM
 
 - name: IJCAI
   year: 2019
@@ -99,6 +110,16 @@
   deadline: TBA
   timezone: Etc/GMT+12
   date: TBA
+  place: TBA
+  sub: AI
+
+- name: ECAI
+  year: 2020
+  id: ecai2020
+  link: https://www.eurai.org/
+  deadline: TBA
+  timezone: Etc/GMT+12
+  date: August, 2019
   place: TBA
   sub: AI
 
