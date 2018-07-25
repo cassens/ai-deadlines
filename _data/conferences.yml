@@ -123,17 +123,6 @@
   place: Montreal, Canada
   sub: AI
 
-- name: ECAI
-  longname: European Conference on Artificial Intelligence
-  year: 2020
-  id: ecai2020
-  link: https://www.eurai.org/
-  deadline: TBA
-  timezone: Etc/GMT+12
-  date: TBA
-  place: TBA
-  sub: AI
-
 - name: IJCAI
   longname: International Joint Conference on Artificial Intelligence
   year: 2020
@@ -143,6 +132,28 @@
   timezone: Etc/GMT+12
   date: August, 2020
   place: Nagoya, Japan
+  sub: AI
+
+- name: LREC
+  longname: Language Resources and Evaluation
+  year: 2020
+  id: lrec2020
+  link: http://www.lrec-conf.org/
+  deadline: TBA
+  timezone: Etc/GMT+12
+  date: TBA
+  place: TBA
+  sub: LING
+  
+- name: ECAI
+  longname: European Conference on Artificial Intelligence
+  year: 2020
+  id: ecai2020
+  link: https://www.eurai.org/
+  deadline: TBA
+  timezone: Etc/GMT+12
+  date: TBA
+  place: TBA
   sub: AI
 
 
