@@ -2,6 +2,7 @@
 ---
 
 - name: AAAI
+  longname: Association for the Advancement of Artificial Intelligence
   year: 2019
   id: aaai2019
   link: https://aaai.org/Conferences/AAAI-19/
@@ -12,16 +13,18 @@
   sub: AI
 
 - name: CHI
+  longname: ACM Special Interest Group on Computer-Human Interaction
   year: 2019
   id: chi2019
   link: http://chi2019.acm.org/
   deadline: "2018-09-14 11:59:59"
   timezone: Etc/GMT-7
   date: May 4 - May 9, 2019
-  place: Glasgow,UK
+  place: Glasgow, UK
   sub: HCI
 
 - name: ICASSP
+  longname: International Conference on Acoustics, Speech, and Signal Processing
   year: 2019
   id: icassp2019
   link: http://icassp2019.com/
@@ -33,6 +36,7 @@
 
 
 - name: NAACL
+  longname: North American Chapter of the Association for Computational Linguistics
   year: 2019
   id: naacl2019
   link: http://naacl2019.org/
@@ -54,6 +58,7 @@
   sub: MM
 
 - name: IJCAI
+  longname: International Joint Conference on Artificial Intelligence
   year: 2019
   id: ijcai2019
   link: https://www.ijcai-19.org/
@@ -64,6 +69,7 @@
   sub: AI
 
 - name: ACL
+  longname: Annual Meeting of the Association for Computational Linguistics
   year: 2019
   id: acl2019
   link: http://acl2019.org/
@@ -74,6 +80,7 @@
   sub: NLP
 
 - name: ICCBR
+  longname: International Conference on Case-Based Reasoning
   year: 2019
   id: iccbr2019
   link: http://iccbr.org/
@@ -84,6 +91,7 @@
   sub: AI
 
 - name: ISFC
+  longname: International Systemic-Functional Congress
   year: 2019
   id: isfc2019
   link: http://www.isfla.org/Systemics/Conferences/Conferences.html
@@ -94,6 +102,7 @@
   sub: LING
 
 - name: ESFLC
+  longname: European Systemic Functional Linguistics Conference
   year: 2019
   id: esflc2019
   link: http://www.isfla.org/Systemics/Conferences/Conferences.html
@@ -104,26 +113,29 @@
   sub: LING
 
 - name: AAMAS
+  longname: Autonomous Agents and Multiagent Systems
   year: 2019
   id: aamas2019
   link: http://www.ifaamas.org/
   deadline: TBA
   timezone: Etc/GMT+12
   date: TBA
-  place: TBA
+  place: Montreal, Canada
   sub: AI
 
 - name: ECAI
+  longname: European Conference on Artificial Intelligence
   year: 2020
   id: ecai2020
   link: https://www.eurai.org/
   deadline: TBA
   timezone: Etc/GMT+12
-  date: August, 2019
+  date: TBA
   place: TBA
   sub: AI
 
 - name: IJCAI
+  longname: International Joint Conference on Artificial Intelligence
   year: 2020
   id: ijcai2020
   link: https://www.ijcai-20.org/
@@ -134,7 +146,19 @@
   sub: AI
 
 
+- name: ICME
+  longname: IEEE International Conference on Multimedia and Expo
+  year: 2018
+  id: icme2018
+  link: http://www.icme2018.org/
+  deadline: "2017-12-15 21:59:59"
+  timezone: GMT
+  date: July 23-27, 2018
+  place: San Diego, USA
+  sub: MM
+
 - name: SIGGRAPH
+  longname: Computer Graphics and Interactive techniques
   year: 2018
   id: siggraph2018
   link: http://s2018.siggraph.org/
@@ -145,6 +169,7 @@
   sub: MM
 
 - name: COLING
+  longname:  Conference on Computational Linguistics
   year: 2018
   id: coling2018
   link: http://coling2018.org/
@@ -155,6 +180,7 @@
   sub: NLP
 
 - name: Interspeech
+  longname: Interspeech
   year: 2018
   id: interspeech2018
   link: http://interspeech2018.org/
@@ -164,7 +190,19 @@
   place: Hyderabad, India
   sub: MM
 
+- name: ACMmultimedia
+  longname: ACM Multimedia
+  year: 2018
+  id: acmmm2018
+  link: http://www.acmmm.org/2018/
+  deadline: "2018-04-08 23:59:59"
+  timezone: Etc/GMT
+  date: October 22-26, 2018
+  place: Seoul, Korea
+  sub: MM
+
 - name: CoNLL
+  longname: SIGNLL Conference on Computational Natural Language Learning
   year: 2018
   id: conll2018
   link: http://www.conll.org/
@@ -175,6 +213,7 @@
   sub: NLP
 
 - name: EMNLP
+  longname: Empirical Methods in Natural Language Processing
   year: 2018
   id: emnlp2018
   link: http://emnlp2018.org
@@ -185,6 +224,7 @@
   sub: NLP
 
 - name: AmI
+  longname: European Conference on Ambient Intelligence
   year: 2018
   id: ami2018
   link: http://www.cyprusconferences.org/ami2018/

@@ -9,8 +9,6 @@
   sub: NLP
 - name: Linguistics
   sub: LING
-- name: Psychology
-  sub: PSY
 - name: Ambient Systems
   sub: AMI
 - name: Machine Learning
