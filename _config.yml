@@ -3,11 +3,11 @@ title: Conference Deadlines # (Maintained by @cassens)
 description: Countdowns to top AI, HCI, SFL, Ambient Systems, Context conference deadlines
 author: Joerg Cassens
 
-domain: "conferences.kriwi.de"
+domain: "github.kriwi.de"
 baseurl: ""
 
 twitter_username: cassens
-twitter_hashtag: machinelearning
+twitter_hashtag: context
 github_username: cassens
 github_repo: conferences
 
