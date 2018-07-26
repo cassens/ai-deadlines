@@ -62,7 +62,7 @@
                   <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
                   <div class="meta">
                     {{conf.longname}}<br />
-                    {{conf.date}} // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a><br />
+                    <b>{{conf.date}}</b> // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a><br />
                     {% for rating in conf.rating %}
                       {% if forloop.first == false %}
                         // 
