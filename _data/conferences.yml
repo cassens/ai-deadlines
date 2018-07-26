@@ -123,6 +123,20 @@
   place: Montreal, Canada
   sub: AI
 
+- name: MRC
+  longname: Workshop Modelling and Reasoning in Context
+  year: 2019
+  id: mrc2019
+  link: http://mrc.kriwi.de/
+  deadline: TBA
+  timezone: Etc/GMT+12
+  date: TBA
+  place: TBA
+  sub: AI
+  sub: HCI
+  sub: AMI
+  sub: LING
+
 - name: IJCAI
   longname: International Joint Conference on Artificial Intelligence
   year: 2020

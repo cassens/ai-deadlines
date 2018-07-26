@@ -1,26 +1,32 @@
 ## Conference Deadlines
 
-Countdown timers to keep track of a bunch of conference deadlines related to AI, HCI, SFL, Ambient Systems, Context.
+Deadlines for conferences in AI, HCI, Multimodality, NLP, SFL and Behavioural Interfaces.
 
 ## Adding/updating a conference
 
-I am trying to expand the listing of top-tier AI conferences [abhshkdz/ai-deadlines][6] with conferences in the area of Human-Computer Interaction, Systemic-Functional Theory of Language, Ambient and Contextualized Computing as well as some specific AI areas. Feel free to maintain a separate fork of the original listing if you do not see your sub-field or conference of interest listed, or amend this list if you feel some events are not represented. 
+This list builds upon the listing of top-tier AI conferences at [aideadlin.es][2]. The aim is to expand that list with conferences in some other areas of research I am active in. Feel free to either contribute to this listing if it matches your research profile or to maintain a separate fork of the original listing for your own area.
 
 To add or update information:
 - Fork the repository
 - Update `_data/conferences.yml`
-- Make sure it has the `name`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place` attributes
+- Make sure it has the `name`, `longname`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place` attributes
 - Send a pull request
 
-## Other repos & other useful listings
+## Other repositories
 
-- [abhshkdz/ai-deadlines][6] by @abhshkdz 
+- [abhshkdz/ai-deadlines][6] by @abhshkdz (the original) 
 - [geodeadlin.es][3] by @LukasMosser
 - [neuro-deadlines][4] by @tbryn
 - [ai-challenge-deadlines][5] by @dieg0as
-- [https://jackietseng.github.io/conference_call_for_paper/][7] by @jackietseng
-- [http://cgcad.thss.tsinghua.edu.cn/liuyushen/cfp/2018-2019-conferences.html][8]
-- [http://wikicfp.com/][9]
+
+## Other listings
+- [jackietseng.github.io/conference_call_for_paper][7] by @jackietseng
+- [cgcad.thss.tsinghua.edu.cn/liuyushen/cfp/2018-2019-conferences.html][8]
+- [wikicfp.com][9]
+
+## Disclaimer
+
+The information in this repository may be outdated, incomplete, or incorrect. Please check the deadlines with the individual conferences and do not rely solely on the information given here.
 
 ## License
 

@@ -1,13 +1,13 @@
-title: Conference Deadlines # (Maintained by @cassens)
-# email: github@cassens.org
-description: Countdowns to AI, HCI, SFL, Ambient Systems conference deadlines
+title: Conference Deadlines
+#email: conferences@kriwi.de
+description: Deadlines for conferences in AI, HCI, Multimodality, NLP, SFL and Behavioural Interfaces. 
 author: Joerg Cassens
 
 domain: "conferences.kriwi.de"
 baseurl: ""
 
 twitter_username: cassens
-twitter_hashtag: context
+twitter_hashtag: conferences
 github_username: cassens
 github_repo: conferences
 

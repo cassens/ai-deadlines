@@ -9,7 +9,5 @@
   sub: NLP
 - name: Linguistics
   sub: LING
-- name: Ambient Systems
+- name: Behavioural Interfaces
   sub: AMI
-- name: Machine Learning
-  sub: ML
