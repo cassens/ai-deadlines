@@ -94,8 +94,12 @@ footer {
   font-size: 13px;
 }
 
-.pastconf {
+.paststart {
   font-style: italic;
+}
+
+.pastend {
+  background-color: #eeeeec;
 }
 
 .past {

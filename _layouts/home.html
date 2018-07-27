@@ -102,10 +102,13 @@
         {% else %}
           var confStartdate = moment("{{conf.startdate}}", "YYYY-MM-DD");
           var confEnddate = moment("{{conf.enddate}}", "YYYY-MM-DD");
-          $('#{{conf.id}} .conference-time').html(confStartdate.toString()+"-"+confEnddate.format("YYYY").toString());
+          $('#{{conf.id}} .conference-time').html(confStartdate.format("ddd MMM DD").toString()+"-"+confEnddate.format("ddd MMM DD YYYY").toString());
           var today = moment();
-          if (today.diff(confEnddate) >= 0) {
-            $('#{{conf.id}}').addClass('pastconf');
+          if (today.diff(confStartdate >= 0) {
+            if (today.diff(confEnddate >= 0) {
+              $('#{{conf.id}}').addClass('pastend');
+            } else {
+              $('#{{conf.id}}').addClass('paststart');
             }
         {% endif %}
         {% if conf.deadline == "TBA" %}
