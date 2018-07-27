@@ -133,10 +133,11 @@
 
           // check if date has passed, add 'past' class to it
           var today = moment();
-          if (today.diff(confDate) > 0)
+          if (today.diff(confDate) > 0) {
             $('#{{conf.id}}').addClass('past');
-          if (today.diff(confDate, 'days') <= -28)
+          } else if (today.diff(confDate, 'days') <= -28) {
             $('#{{conf.id}}').addClass('imminent');
+          }
         {% endif %}
         {% endfor %}
 
