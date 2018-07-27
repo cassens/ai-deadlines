@@ -1,7 +1,7 @@
 
 ---
 
-############# Deadlines passed #############
+############# Upcoming Conferences #############
 
 - name: COLING
   longname:  Conference on Computational Linguistics
@@ -17,7 +17,7 @@
       mark: "A"
     - org: "Google h5 2018"
       mark: "35"
-  sub: NLP
+  sub: [NLP, LING]
 
 - name: MuC
   longname: Mensch und Computer
@@ -68,6 +68,20 @@
   place: Oslo, Norway
   sub: HCI
 
+- name: ICMI
+  longname: International Conference on Multimodal Interaction
+  year: 2018
+  id: icmi2018
+  link: http://icmi.acm.org/2018/
+  deadline: "2018-05-01 23:59:59"
+  timezone: America/Los_Angeles
+  date: October 16-20, 2018
+  place: Boulder, Colorado, USA
+  rating:
+    - org: CORE2018
+      mark: "B"
+  sub: [HCI, MM]
+
 - name: ACMmultimedia
   longname: ACM Multimedia
   year: 2018
@@ -96,7 +110,7 @@
       mark: "A"
     - org: "Google h5 2018"
       mark: "21"
-  sub: NLP
+  sub: [NLP, LING]
 
 - name: EMNLP
   longname: Empirical Methods in Natural Language Processing
@@ -112,7 +126,7 @@
       mark: "A"
     - org: "Google h5 2018"
       mark: "58"
-  sub: NLP
+  sub: [NLP, LING]
 
 - name: AmI
   longname: European Conference on Ambient Intelligence
@@ -127,6 +141,17 @@
     - org: CORE2018
       mark: "C"
   sub: AMI
+
+- name: HAI
+  longname: International Conference on Human-Agent Interaction
+  year: 2018
+  id: hai2018
+  link: http://hai-conference.net/hai2018/
+  deadline: "2018-10-01 23:59:59"
+  timezone: GMT
+  date: December 15-18, 2018
+  place: Southampton, UK
+  sub: HCI
 
 - name: AAAI
   longname: Association for the Advancement of Artificial Intelligence
@@ -144,6 +169,31 @@
       mark: "56"
   sub: AI
 
+- name: HRI
+  longname: ACM/IEEE International Conference on Human-Robot Interaction
+  year: 2019
+  id: hri2019
+  link: http://humanrobotinteraction.org/2019/
+  deadline: "2018-10-01 23:59:59"
+  timezone: GMT
+  date: March 11-14, 2019
+  place: Daegu, Korea
+  sub: [HCI, MM]
+
+- name: IUI
+  longname: ACM International Conference on Intelligent User Interfaces
+  year: 2019
+  id: iui2019
+  link: http://iui.acm.org/2019/
+  deadline: TBA
+  timezone: GMT
+  date: March 17-20, 2019
+  place: Los Angeles, California, USA
+  rating:
+    - org: CORE2018
+      mark: "A"
+  sub: [AI, HCI, MM]
+
 - name: CHI
   longname: ACM SIG on Computer-Human Interaction
   year: 2019
@@ -151,7 +201,7 @@
   link: http://chi2019.acm.org/
   deadline: "2018-09-14 11:59:59"
   timezone: America/Los_Angeles
-  date: May 4 - May 9, 2019
+  date: May 4-9, 2019
   place: Glasgow, UK
   rating:
     - org: CORE2018
@@ -176,20 +226,6 @@
       mark: "67"
   sub: MM
 
-- name: Interact
-  longname: TC.13 International Conference on Human-Computer Interaction
-  year: 2019
-  id: interact2019
-  link: https://interact2019.org/
-  deadline: "2019-01-14 23:59:59"
-  timezone: GMT
-  date: September 2-6, 2019
-  place: Paphos, Cyprus
-  rating:
-    - org: CORE2018
-      mark: "A"
-  sub: HCI
-
 - name: AIME
   longname: Conference on Artificial Intelligence in Medicine
   year: 2019
@@ -203,8 +239,6 @@
     - org: CORE2018
       mark: "B"
   sub: AI
-
-############# Deadlines TBA #############
 
 - name: ISFC
   longname: International Systemic-Functional Congress
@@ -228,6 +262,20 @@
   place: Leiria, Portugal
   sub: LING
 
+- name: CogSci
+  longname: Annual Meeting of the Cognitive Science Society
+  year: 2019
+  id: cogsci2019
+  link: http://www.cognitivesciencesociety.org/conferences/
+  deadline: TBA
+  timezone: Etc/GMT-11
+  date: July 24-27, 2019
+  place: Montréal, Canada
+  rating:
+    - org: CORE2018
+      mark: "A"
+  sub: COG
+
 - name: ACL
   longname: Annual Meeting of the Association for Computational Linguistics
   year: 2019
@@ -242,7 +290,7 @@
       mark: "A*"
     - org: "Google h5 2018"
       mark: "67"
-  sub: NLP
+  sub: [NLP, LING]
 
 - name: IJCAI
   longname: International Joint Conference on Artificial Intelligence
@@ -259,6 +307,20 @@
     - org: "Google h5 2018"
       mark: "45"
   sub: AI
+
+- name: Interact
+  longname: TC.13 International Conference on Human-Computer Interaction
+  year: 2019
+  id: interact2019
+  link: https://interact2019.org/
+  deadline: "2019-01-14 23:59:59"
+  timezone: GMT
+  date: September 2-6, 2019
+  place: Paphos, Cyprus
+  rating:
+    - org: CORE2018
+      mark: "A"
+  sub: HCI
 
 - name: MuC
   longname: Mensch und Computer
@@ -285,6 +347,20 @@
       mark: "B"
   sub: AI
 
+- name: ICMI
+  longname: International Conference on Multimodal Interaction
+  year: 2019
+  id: icmi2019
+  link: http://icmi.acm.org/2019/
+  deadline: TBA
+  timezone: America/Los_Angeles
+  date: October 14-18, 2019
+  place: Suzhou, China
+  rating:
+    - org: CORE2018
+      mark: "B"
+  sub: [HCI, MM]
+
 - name: AAMAS
   longname: Autonomous Agents and Multiagent Systems
   year: 2019
@@ -292,7 +368,7 @@
   link: http://www.ifaamas.org/
   deadline: TBA
   timezone: Etc/GMT+12
-  date: TBA
+  date: 2019, TBA
   place: Montreal, Canada
   rating:
     - org: CORE2018
@@ -306,9 +382,34 @@
   link: http://mrc.kriwi.de/
   deadline: TBA
   timezone: Etc/GMT+12
-  date: TBA
+  date: 2019, TBA
   place: TBA
-  sub: [AI, HCI, AMI, LING]
+  sub: [AI, HCI, AMI, LING, COG]
+
+- name: IUI
+  longname: ACM International Conference on Intelligent User Interfaces
+  year: 2020
+  id: iui2020
+  link: http://iui.acm.org/
+  deadline: TBA
+  timezone: GMT
+  date: March 17-20, 2020
+  place: Cagliari, Italy
+  rating:
+    - org: CORE2018
+      mark: "A"
+  sub: [AI, HCI, MM]
+
+- name: HRI
+  longname: ACM/IEEE International Conference on Human-Robot Interaction
+  year: 2020
+  id: hri2020
+  link: http://humanrobotinteraction.org/2020/
+  deadline: TBA
+  timezone: GMT
+  date: March 23-26, 2020
+  place: Cambridge, UK
+  sub: [HCI, MM]
 
 - name: IJCAI-PRICAI
   longname: International Joint Conference on Artificial Intelligence
@@ -363,7 +464,7 @@
   link: http://www.ifaamas.org/
   deadline: TBA
   timezone: Etc/GMT+12
-  date: TBA
+  date: 2020, TBA
   place: Auckland, New Zealand
   rating:
     - org: CORE2018
@@ -377,7 +478,7 @@
   link: http://iccbr.org/
   deadline: TBA
   timezone: Europe/Berlin
-  date: TBA
+  date: 2020, TBA
   place: Salamanca, Spain
   rating:
     - org: CORE2018
@@ -391,7 +492,7 @@
   link: http://www.lrec-conf.org/
   deadline: TBA
   timezone: Etc/GMT+12
-  date: TBA
+  date: 2020, TBA
   place: TBA
   rating:
     - org: CORE2018
@@ -407,7 +508,7 @@
   link: https://www.ijcai.org/
   deadline: TBA
   timezone: Etc/GMT+12
-  date: TBA
+  date: 2022, TBA
   place: Bologna, Italy
   rating:
     - org: CORE2018
@@ -416,14 +517,14 @@
       mark: "45"
   sub: AI
 
-############# Conferences passed #############
+############# Passed Conferences #############
 
 - name: ICME
   longname: IEEE International Conference on Multimedia and Expo
   year: 2018
   id: icme2018
   link: http://www.icme2018.org/
-  deadline: "2017-12-15 21:59:59"
+  deadline: "2017-12-15 23:59:59"
   timezone: GMT
   date: July 23-27, 2018
   place: San Diego, USA
@@ -431,6 +532,20 @@
     - org: CORE2018
       mark: "B"
   sub: MM
+
+- name: CogSci
+  longname: Annual Meeting of the Cognitive Science Society
+  year: 2018
+  id: cogsci2018
+  link: http://www.cognitivesciencesociety.org/conference/cogsci-2018/
+  deadline: "2018-02-01 23:59:59"
+  timezone: Etc/GMT-11
+  date: July 25-28, 2018
+  place: Madison, WI, USA
+  rating:
+    - org: CORE2018
+      mark: "A"
+  sub: COG
 
 ############# Attic #############
   
@@ -454,7 +569,7 @@
   #timezone: Etc/GMT+12
   #date: June 2-7, 2019
   #place: Minneapolis, USA
-  #sub: NLP
+  #sub: [NLP, LING]
 
 #- name: ICMR
   #longname: ACM International Conference on Multimedia Retrieval

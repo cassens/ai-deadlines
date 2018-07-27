@@ -5,9 +5,11 @@
   sub: HCI
 - name: Multimodality
   sub: MM
-- name: Natural Language Processing
-  sub: NLP
+#- name: Natural Language Processing
+  #sub: NLP
 - name: Linguistics
   sub: LING
+- name: Cognition
+  sub: COG
 - name: Behavioural Interfaces
   sub: AMI
