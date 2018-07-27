@@ -62,7 +62,8 @@
                   <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
                   <div class="meta">
                     {{conf.longname}}<br />
-                    <b>{{conf.date}}</b> // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a><br />
+<!--                     <b>{{conf.date}}</b> // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a><br /> -->
+                    <b><span class="conference-time"></span></b> // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a><br />
                     {% for rating in conf.rating %}{% if forloop.first == false %} // {% endif %}{{rating.org}}: {{rating.mark}}{% endfor %}
                   </div>
               </div>
@@ -96,6 +97,11 @@
     <script type="text/javascript" charset="utf-8">
     $(function() {
         {% for conf in site.data.conferences %}
+        {% if conf.startdate == "TBA" %}
+          $('#{{conf.id}} .conference-time').html("{{conf.enddate}}");
+        {% else %}
+          $('#{{conf.id}} .conference-time').html("{{conf.startdate}}-{{conf.enddate}}");
+        {% endif %}
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
