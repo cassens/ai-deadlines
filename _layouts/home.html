@@ -104,9 +104,9 @@
           var confEnddate = moment("{{conf.enddate}}", "YYYY-MM-DD");
           $('#{{conf.id}} .conference-time').html(confStartdate.format("ddd MMM DD").toString()+"-"+confEnddate.format("ddd MMM DD YYYY").toString());
           var today = moment();
-          if (today.diff(confEnddate >= 0) {
+          if (today.diff(confEnddate) >= 0) {
             $('#{{conf.id}}').addClass('pastend');
-          } else if (today.diff(confStartdate >= 0) {
+          } else if (today.diff(confStartdate) >= 0) {
             $('#{{conf.id}}').addClass('paststart');
           }
         {% endif %}
