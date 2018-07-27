@@ -95,7 +95,7 @@ footer {
 }
 
 .pastconf {
-  text-decoration: line-through;
+  font-style: italic;
 }
 
 .past {

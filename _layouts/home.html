@@ -102,7 +102,7 @@
         {% else %}
           var confStartdate = moment("{{conf.startdate}}", "YYYY-MM-DD");
           var confEnddate = moment("{{conf.enddate}}", "YYYY-MM-DD");
-          $('#{{conf.id}} .conference-time').html(confStartdate.toString()+"-"+confEnddate.toString());
+          $('#{{conf.id}} .conference-time').html(confStartdate.toString()+"-"+confEnddate.format("YYYY").toString());
           var today = moment();
           if (today.diff(confEnddate) >= 0) {
             $('#{{conf.id}}').addClass('pastconf');
