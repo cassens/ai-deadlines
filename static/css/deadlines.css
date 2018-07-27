@@ -102,6 +102,10 @@ footer {
   color: #cc0000;
 }
 
+.upcoming {
+  color: #4e9a06;
+}
+
 .deadline, .meta {
   font-size: 13px;
 }
