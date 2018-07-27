@@ -103,6 +103,10 @@
           var confStartdate = moment("{{conf.startdate}}", "YYYY-MM-DD");
           var confEnddate = moment("{{conf.enddate}}", "YYYY-MM-DD");
           $('#{{conf.id}} .conference-time').html(confStartdate.toString()+"-"+confEnddate.toString());
+          var today = moment();
+          if (today.diff(confEnddate) >= 0) {
+            $('#{{conf.id}}').addClass('pastconf');
+            }
         {% endif %}
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
