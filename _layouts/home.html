@@ -97,16 +97,6 @@
     <script type="text/javascript" charset="utf-8">
     $(function() {
         {% for conf in site.data.conferences %}
-        {% if conf.startdate == "TBA" %}
-          $('#{{conf.id}} .conference-time').html("{{conf.enddate}}");
-        {% else %}
-          var confStartdate = moment("{{conf.startdate}}", "YYYY-MM-DD");
-          var confEnddate = moment("{{conf.enddate}}", "YYYY-MM-DD");
-          $('#{{conf.id}} .conference-time').html(confStartdate.format(ddd MMM DD).toString()+"-"+confEnddate.format(ddd MMM DD YYYY).toString());
-          if (today.diff(confEnddate) >= 0) {
-            $('#{{conf.id}}').addClass('pastconf');
-            }
-        {% endif %}
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
