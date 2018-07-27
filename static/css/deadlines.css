@@ -6,7 +6,7 @@ body {
 }
 
 body *::selection {
-  background: #e74c3c;
+  background: #3465a4;
   color: #fff;
 }
 
@@ -85,7 +85,7 @@ a:hover, a:focus {
 }
 
 pre {
-  color: #333;
+/*   color: #333; */
   font-size: 12px;
   line-height: 17px;
 }
@@ -96,6 +96,10 @@ footer {
 
 .past {
   opacity: 0.5;
+}
+
+.imminent {
+  color: #cc0000;
 }
 
 .deadline, .meta {

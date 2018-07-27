@@ -63,12 +63,7 @@
                   <div class="meta">
                     {{conf.longname}}<br />
                     <b>{{conf.date}}</b> // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a><br />
-                    {% for rating in conf.rating %}
-                      {% if forloop.first == false %}
-                        // 
-                      {% endif %}
-                      {{rating.org}}: {{rating.mark}}
-                    {% endfor %}
+                    {% for rating in conf.rating %}{% if forloop.first == false %} // {% endif %}{{rating.org}}: {{rating.mark}}{% endfor %}
                   </div>
               </div>
               <div class="col-xs-12 col-sm-6">
@@ -111,7 +106,7 @@
 
           // render countdown timer
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            $(this).html(event.strftime('%D days %Hh %Mm'));
           });
           $('#{{conf.id}} .deadline-time').html(confDate.toString());
 
@@ -140,6 +135,8 @@
           var today = moment();
           if (today.diff(confDate) > 0)
             $('#{{conf.id}}').addClass('past');
+          if (today.diff(confDate, 'days') <= -28)
+            $('#{{conf.id}}').addClass('imminent');
         {% endif %}
         {% endfor %}
 
