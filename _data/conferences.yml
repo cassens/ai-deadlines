@@ -3,20 +3,6 @@
 
 ############# Deadlines passed #############
 
-- name: ICME
-  longname: IEEE International Conference on Multimedia and Expo
-  year: 2018
-  id: icme2018
-  link: http://www.icme2018.org/
-  deadline: "2017-12-15 21:59:59"
-  timezone: GMT
-  date: July 23-27, 2018
-  place: San Diego, USA
-  rating:
-    - org: CORE2018
-      mark: "B"
-  sub: MM
-
 - name: COLING
   longname:  Conference on Computational Linguistics
   year: 2018
@@ -429,6 +415,22 @@
     - org: "Google h5 2018"
       mark: "45"
   sub: AI
+
+############# Conferences passed #############
+
+- name: ICME
+  longname: IEEE International Conference on Multimedia and Expo
+  year: 2018
+  id: icme2018
+  link: http://www.icme2018.org/
+  deadline: "2017-12-15 21:59:59"
+  timezone: GMT
+  date: July 23-27, 2018
+  place: San Diego, USA
+  rating:
+    - org: CORE2018
+      mark: "B"
+  sub: MM
 
 ############# Attic #############
   

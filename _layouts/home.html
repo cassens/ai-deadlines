@@ -135,8 +135,10 @@
           var today = moment();
           if (today.diff(confDate) > 0) {
             $('#{{conf.id}}').addClass('past');
-          } else if (today.diff(confDate, 'days') >= -28) {
+          } else if (today.diff(confDate, 'days') >= -14) {
             $('#{{conf.id}}').addClass('imminent');
+          } else if (today.diff(confDate, 'days') >= -42) {
+            $('#{{conf.id}}').addClass('soon');
           } else if (today.diff(confDate, 'days') >= -56) {
             $('#{{conf.id}}').addClass('upcoming');
           }
