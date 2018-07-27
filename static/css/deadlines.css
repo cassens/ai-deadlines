@@ -94,6 +94,10 @@ footer {
   font-size: 13px;
 }
 
+.pastconf {
+  text-decoration: line-through;
+}
+
 .past {
   opacity: 0.5;
 }

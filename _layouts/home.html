@@ -100,7 +100,12 @@
         {% if conf.startdate == "TBA" %}
           $('#{{conf.id}} .conference-time').html("{{conf.enddate}}");
         {% else %}
-          $('#{{conf.id}} .conference-time').html("{{conf.startdate}}-{{conf.enddate}}");
+          var confStartdate = moment("{{conf.startdate}}", "YYYY-MM-DD");
+          var confEnddate = moment("{{conf.enddate}}", "YYYY-MM-DD");
+          $('#{{conf.id}} .conference-time').html(confStartdate.format(ddd MMM DD).toString()+"-"+confEnddate.format(ddd MMM DD YYYY).toString());
+          if (today.diff(confEnddate) >= 0) {
+            $('#{{conf.id}}').addClass('pastconf');
+            }
         {% endif %}
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
@@ -108,13 +113,13 @@
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "GMT" {% endif %};
-          var confDate = moment.tz("{{conf.deadline}}", timezone);
+          var confDeadline = moment.tz("{{conf.deadline}}", timezone);
 
           // render countdown timer
-          $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
+          $('#{{conf.id}} .timer').countdown(confDeadline.toDate(), function(event) {
             $(this).html(event.strftime('%D days %Hh %Mm'));
           });
-          $('#{{conf.id}} .deadline-time').html(confDate.toString());
+          $('#{{conf.id}} .deadline-time').html(confDeadline.toString());
 
           // add calendar button
           var myCalendar = createCalendar({
@@ -129,7 +134,7 @@
               title: '{{conf.name}} {{conf.year}} deadline',
 
               // Event start date
-              start: confDate.toDate(), // new Date('June 15, 2013 19:00'),
+              start: confDeadline.toDate(), // new Date('June 15, 2013 19:00'),
 
               // Event duration
               duration: 60,
@@ -139,13 +144,13 @@
 
           // check if date has passed, add 'past' class to it
           var today = moment();
-          if (today.diff(confDate) > 0) {
+          if (today.diff(confDeadline) > 0) {
             $('#{{conf.id}}').addClass('past');
-          } else if (today.diff(confDate, 'days') >= -14) {
+          } else if (today.diff(confDeadline, 'days') >= -14) {
             $('#{{conf.id}}').addClass('imminent');
-          } else if (today.diff(confDate, 'days') >= -28) {
+          } else if (today.diff(confDeadline, 'days') >= -28) {
             $('#{{conf.id}}').addClass('soon');
-          } else if (today.diff(confDate, 'days') >= -56) {
+          } else if (today.diff(confDeadline, 'days') >= -56) {
             $('#{{conf.id}}').addClass('upcoming');
           }
         {% endif %}
