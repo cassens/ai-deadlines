@@ -1,6 +1,36 @@
 
 ---
 
+############# Past Conferences #############
+
+- name: ICME
+  longname: IEEE International Conference on Multimedia and Expo
+  year: 2018
+  id: icme2018
+  link: http://www.icme2018.org/
+  deadline: "2017-12-15 23:59:59"
+  timezone: GMT
+  date: July 23-27, 2018
+  place: San Diego, USA
+  rating:
+    - org: CORE2018
+      mark: "B"
+  sub: MM
+
+- name: CogSci
+  longname: Annual Meeting of the Cognitive Science Society
+  year: 2018
+  id: cogsci2018
+  link: http://www.cognitivesciencesociety.org/conference/cogsci-2018/
+  deadline: "2018-02-01 23:59:59"
+  timezone: Etc/GMT-11
+  date: July 25-28, 2018
+  place: Madison, WI, USA
+  rating:
+    - org: CORE2018
+      mark: "A"
+  sub: COG
+
 ############# Upcoming Conferences #############
 
 - name: COLING
@@ -185,7 +215,7 @@
   year: 2019
   id: iui2019
   link: http://iui.acm.org/2019/
-  deadline: TBA
+  deadline: "2018-10-01 23:59:59"
   timezone: GMT
   date: March 17-20, 2019
   place: Los Angeles, California, USA
@@ -239,6 +269,22 @@
     - org: CORE2018
       mark: "B"
   sub: AI
+
+- name: Interact
+  longname: TC.13 International Conference on Human-Computer Interaction
+  year: 2019
+  id: interact2019
+  link: https://interact2019.org/
+  deadline: "2019-01-14 23:59:59"
+  timezone: GMT
+  date: September 2-6, 2019
+  place: Paphos, Cyprus
+  rating:
+    - org: CORE2018
+      mark: "A"
+  sub: HCI
+
+############# Deadlines TBA #############
 
 - name: ISFC
   longname: International Systemic-Functional Congress
@@ -307,20 +353,6 @@
     - org: "Google h5 2018"
       mark: "45"
   sub: AI
-
-- name: Interact
-  longname: TC.13 International Conference on Human-Computer Interaction
-  year: 2019
-  id: interact2019
-  link: https://interact2019.org/
-  deadline: "2019-01-14 23:59:59"
-  timezone: GMT
-  date: September 2-6, 2019
-  place: Paphos, Cyprus
-  rating:
-    - org: CORE2018
-      mark: "A"
-  sub: HCI
 
 - name: MuC
   longname: Mensch und Computer
@@ -516,36 +548,6 @@
     - org: "Google h5 2018"
       mark: "45"
   sub: AI
-
-############# Passed Conferences #############
-
-- name: ICME
-  longname: IEEE International Conference on Multimedia and Expo
-  year: 2018
-  id: icme2018
-  link: http://www.icme2018.org/
-  deadline: "2017-12-15 23:59:59"
-  timezone: GMT
-  date: July 23-27, 2018
-  place: San Diego, USA
-  rating:
-    - org: CORE2018
-      mark: "B"
-  sub: MM
-
-- name: CogSci
-  longname: Annual Meeting of the Cognitive Science Society
-  year: 2018
-  id: cogsci2018
-  link: http://www.cognitivesciencesociety.org/conference/cogsci-2018/
-  deadline: "2018-02-01 23:59:59"
-  timezone: Etc/GMT-11
-  date: July 25-28, 2018
-  place: Madison, WI, USA
-  rating:
-    - org: CORE2018
-      mark: "A"
-  sub: COG
 
 ############# Attic #############
   
