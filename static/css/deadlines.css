@@ -118,6 +118,10 @@ footer {
   color: #4e9a06;
 }
 
+.deadline-epoch, .conference-epoch {
+  color: red;
+}
+
 .deadline, .meta {
   font-size: 13px;
 }

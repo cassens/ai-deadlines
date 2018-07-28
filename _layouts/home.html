@@ -103,6 +103,8 @@
         {% for conf in site.data.conferences %}
         {% if conf.startdate == "TBA" %}
           $('#{{conf.id}} .conference-time').html("{{conf.enddate}}");
+          var confStartdate = moment("{{conf.year}}", "YYYY").add(1, 'y');
+          $('#{{conf.id}} .conference-epoch').html(confStartdate.format("X").toString());
         {% else %}
           var confStartdate = moment("{{conf.startdate}}", "YYYY-MM-DD");
           var confEnddate = moment("{{conf.enddate}}", "YYYY-MM-DD");
@@ -118,6 +120,8 @@
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
+          var confDeadline = moment("{{conf.year}}", "YYYY").add(50, 'y');
+          $('#{{conf.id}} .deadline-epoch').html(confDeadline.format("X").toString());
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "GMT" {% endif %};
