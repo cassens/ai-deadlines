@@ -64,7 +64,7 @@
                   var $divs = $("div.conferenceitem");
                   
                   $('#startBnt').on('click', function () {
-                    alert(start);
+                    console.log("start");
                     var startOrderedDivs = $divs.sort(function (a, b) {
                       return $(a).find("span.conference-epoch").text() > $(b).find("span.conference-epoch").text();
                     });
@@ -72,7 +72,7 @@
                   });
                 
                   $('#deadlBnt').on('click', function () {
-                    alert(deadline);
+                    console.log(deadline");
                     var deadlOrderedDivs = $divs.sort(function (a, b) {
                       return $(a).find("span.deadline-epoch").text() > $(b).find("span.deadline-epoch").text();
                     });
