@@ -61,6 +61,8 @@
                 <button id="startBnt">Sort by start date</button>
                 <button id="deadlBnt">Sort by deadline</button>
                 <script type="text/javascript" charset="utf-8">
+                  var $divs = $("div.conferenceitem");
+                  
                   $('#startBnt').on('click', function () {
                     var startOrderedDivs = $divs.sort(function (a, b) {
                       return $(a).$("span.conference-epoch").text() > $(b).$("span.conference-epoch").text();
