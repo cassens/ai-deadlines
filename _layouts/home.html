@@ -89,12 +89,13 @@
         <div id="conferencelist">
           {% for conf in site.data.conferences %}
           <div id="{{conf.id}}" class="conferenceitem {% for sub in conf.sub %}{{sub}}-conf {% endfor %}">
+            <span class="conference-epoch"></span><span class="deadline-epoch"></span>
             <div class="row">
                 <div class="col-xs-12 col-sm-6">
                     <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
                     <div class="meta">
                       {{conf.longname}}<br />
-                      <b><span class="conference-time"></span><span class="conference-epoch"></span></b> //
+                      <b><span class="conference-time"></span></b> //
                       <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a><br />
                       {% for rating in conf.rating %}{% if forloop.first == false %} // {% endif %}{{rating.org}}: {{rating.mark}}{% endfor %}
                     </div>
@@ -103,7 +104,7 @@
                   <span class="timer"></span>
                   <div class="deadline">
                     <div>Deadline:
-                      <span class="deadline-time"></span><span class="deadline-epoch"></span>
+                      <span class="deadline-time"></span>
                     </div>
                   </div>
                   <div class="calendar"></div>
