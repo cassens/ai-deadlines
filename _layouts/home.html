@@ -31,7 +31,9 @@
                 </div>
                 <div class="meta col-xs-12">
                   {{ site.description }}
-                  To add/update a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull request</a>. The information on this website may be outdated, incomplete, or incorrect. Please check the deadlines with the individual conferences and do not rely solely on the information given here.
+                  To add/update a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull
+                  request</a>. The information on this website may be outdated, incomplete, or incorrect. Please check the deadlines with the
+                  individual conferences and do not rely solely on the information given here.
                 </div>
             </div>
             <br>
@@ -55,31 +57,33 @@
               </div>
             </div>
         </div>
-        {% for conf in site.data.conferences %}
-        <div id="{{conf.id}}" class="{% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
-          <div class="row">
-              <div class="col-xs-12 col-sm-6">
-                  <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
-                  <div class="meta">
-                    {{conf.longname}}<br />
-<!--                     <b>{{conf.date}}</b> // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a><br /> -->
-                    <b><span class="conference-time"></span></b> // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a><br />
-                    {% for rating in conf.rating %}{% if forloop.first == false %} // {% endif %}{{rating.org}}: {{rating.mark}}{% endfor %}
-                  </div>
-              </div>
-              <div class="col-xs-12 col-sm-6">
-                <span class="timer"></span>
-                <div class="deadline">
-                  <div>Deadline:
-                    <span class="deadline-time"></span>
-                  </div>
+        <div id="conferencelist">
+          {% for conf in site.data.conferences %}
+          <div id="{{conf.id}}" class="conferenceitem {% for sub in conf.sub %}{{sub}}-conf {% endfor %}">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
+                    <div class="meta">
+                      {{conf.longname}}<br />
+                      <b><span class="conference-time"></span><span class="conference-epoch"></span></b> //
+                      <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a><br />
+                      {% for rating in conf.rating %}{% if forloop.first == false %} // {% endif %}{{rating.org}}: {{rating.mark}}{% endfor %}
+                    </div>
                 </div>
-                <div class="calendar"></div>
-              </div>
+                <div class="col-xs-12 col-sm-6">
+                  <span class="timer"></span>
+                  <div class="deadline">
+                    <div>Deadline:
+                      <span class="deadline-time"></span><span class="deadline-epoch"></span>
+                    </div>
+                  </div>
+                  <div class="calendar"></div>
+                </div>
+            </div>
+            <hr>
           </div>
-          <hr>
+          {% endfor %}
         </div>
-        {% endfor %}
         <footer>
           <a href="https://www.uni-hildesheim.de/fb4/institute/imai/mitglieder/cassens/">Jörg Cassens</a><br />
           IMAI - Institut für Mathematik und Angewandte Informatik<br />
@@ -103,6 +107,7 @@
           var confStartdate = moment("{{conf.startdate}}", "YYYY-MM-DD");
           var confEnddate = moment("{{conf.enddate}}", "YYYY-MM-DD");
           $('#{{conf.id}} .conference-time').html(confStartdate.format("ddd MMM DD").toString()+" - "+confEnddate.format("ddd MMM DD YYYY").toString());
+          $('#{{conf.id}} .conference-epoch').html(confStartdate.format("X").toString());
           var today = moment();
           if (today.diff(confEnddate, 'days') > 0) {
             $('#{{conf.id}}').addClass('pastend');
@@ -123,6 +128,7 @@
             $(this).html(event.strftime('%D days %Hh %Mm'));
           });
           $('#{{conf.id}} .deadline-time').html(confDeadline.toString());
+          $('#{{conf.id}} .deadline-epoch').html(confDeadline.format("X").toString());
 
           // add calendar button
           var myCalendar = createCalendar({
