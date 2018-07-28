@@ -65,14 +65,14 @@
                   
                   $('#startBnt').on('click', function () {
                     var startOrderedDivs = $divs.sort(function (a, b) {
-                      return $(a).$("span.conference-epoch").text() > $(b).$("span.conference-epoch").text();
+                      return $(a).find("span.conference-epoch").text() > $(b).find("span.conference-epoch").text();
                     });
                     $("#conferencelist").html(startOrderedDivs);
                   });
                 
-                  $('#startBnt').on('click', function () {
+                  $('#deadlBnt').on('click', function () {
                     var deadlOrderedDivs = $divs.sort(function (a, b) {
-                      return $(a).$("span.deadline-epoch").text() > $(b).$("span.deadline-epoch").text();
+                      return $(a).find("span.deadline-epoch").text() > $(b).find("span.deadline-epoch").text();
                     });
                     $("#conferencelist").html(deadlOrderedDivs);
                   });
