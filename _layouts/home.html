@@ -60,6 +60,21 @@
               <div class="col-xs-12">
                 <button id="startBnt">Sort by start date</button>
                 <button id="deadlBnt">Sort by deadline</button>
+                <script type="text/javascript" charset="utf-8">
+                  $('#startBnt').on('click', function () {
+                    var startOrderedDivs = $divs.sort(function (a, b) {
+                      return $(a).$("span.conference-epoch").text() > $(b).$("span.conference-epoch").text();
+                    });
+                    $("#conferencelist").html(startOrderedDivs);
+                  });
+                
+                  $('#startBnt').on('click', function () {
+                    var deadlOrderedDivs = $divs.sort(function (a, b) {
+                      return $(a).$("span.deadline-epoch").text() > $(b).$("span.deadline-epoch").text();
+                    });
+                    $("#conferencelist").html(deadlOrderedDivs);
+                  });
+                </script>
               </div>
             </div>
         </div>
