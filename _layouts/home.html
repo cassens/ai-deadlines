@@ -66,14 +66,18 @@
                   $('#startBnt').on('click', function () {
                     console.log("start");
                     var startOrderedDivs = $divs.sort(function (a, b) {
+                      console.log($(a).find("span.conference-epoch").text());
+                      console.log($(b).find("span.conference-epoch").text());
                       return $(a).find("span.conference-epoch").text() > $(b).find("span.conference-epoch").text();
                     });
 //                     $("#conferencelist").html(startOrderedDivs);
                   });
                 
                   $('#deadlBnt').on('click', function () {
-                    console.log(deadline");
+                    console.log("deadline");
                     var deadlOrderedDivs = $divs.sort(function (a, b) {
+                      console.log($(a).find("span.deadline-epoch").text());
+                      console.log($(b).find("span.deadline-epoch").text());
                       return $(a).find("span.deadline-epoch").text() > $(b).find("span.deadline-epoch").text();
                     });
 //                     $("#conferencelist").html(deadlOrderedDivs);
