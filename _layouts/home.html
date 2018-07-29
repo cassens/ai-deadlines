@@ -66,9 +66,9 @@
                   $('#startBnt').on('click', function () {
                     console.log("start");
                     var startOrderedDivs = $divs.sort(function (a, b) {
-                      console.log($(a).find("span.conference-epoch").text());
-                      console.log($(b).find("span.conference-epoch").text());
-                      return $(a).find("span.conference-epoch").text() > $(b).find("span.conference-epoch").text();
+                      console.log($(a).find("div.conference-epoch").text());
+                      console.log($(b).find("div.conference-epoch").text());
+                      return $(a).find("div.conference-epoch").text() > $(b).find("div.conference-epoch").text();
                     });
 //                     $("#conferencelist").html(startOrderedDivs);
                   });
@@ -76,9 +76,9 @@
                   $('#deadlBnt').on('click', function () {
                     console.log("deadline");
                     var deadlOrderedDivs = $divs.sort(function (a, b) {
-                      console.log($(a).find("span.deadline-epoch").text());
-                      console.log($(b).find("span.deadline-epoch").text());
-                      return $(a).find("span.deadline-epoch").text() > $(b).find("span.deadline-epoch").text();
+                      console.log($(a).find("div.deadline-epoch").text());
+                      console.log($(b).find("div.deadline-epoch").text());
+                      return $(a).find("div.deadline-epoch").text() > $(b).find("div.deadline-epoch").text();
                     });
 //                     $("#conferencelist").html(deadlOrderedDivs);
                   });
@@ -89,7 +89,7 @@
         <div id="conferencelist">
           {% for conf in site.data.conferences %}
           <div id="{{conf.id}}" class="conferenceitem {% for sub in conf.sub %}{{sub}}-conf {% endfor %}">
-            <span class="conference-epoch"></span><span class="deadline-epoch"></span>
+            <div class="conference-epoch"></div><div class="deadline-epoch"></div>
             <div class="row">
                 <div class="col-xs-12 col-sm-6">
                     <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
