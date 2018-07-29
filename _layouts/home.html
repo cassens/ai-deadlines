@@ -60,6 +60,7 @@
               <div class="col-xs-12">
                 <button id="startBtn">Sort by start date</button>
                 <button id="deadlBtn">Sort by deadline</button>
+                <button id="pastdlBtn">Toggle past deadlines</button>
                 <script type="text/javascript" charset="utf-8">
 
                   $('#startBtn').on('click', function () {
@@ -79,6 +80,8 @@
                     });
                     $("#conferencelist").html(deadlOrderedDivs);
                   });
+
+                  $('#pastdlBtn').on('click', function () {$(".past").toggle();});
                 </script>
               </div>
             </div>
