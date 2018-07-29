@@ -66,10 +66,10 @@
                     var $divs = $("div.conferenceitem");
                     console.log("start");
                     var startOrderedDivs = $divs.sort(function (a, b) {
-                      console.log($(a).find("div.conference-epoch").text());
-                      console.log(typeof $(a).find("div.conference-epoch").text());
-                      console.log($(b).find("div.conference-epoch").text());
-                      console.log(typeof $(b).find("div.conference-epoch").text());
+//                       console.log($(a).find("div.conference-epoch").text());
+//                       console.log(typeof $(a).find("div.conference-epoch").text());
+//                       console.log($(b).find("div.conference-epoch").text());
+//                       console.log(typeof $(b).find("div.conference-epoch").text());
                       return $(a).find("div.conference-epoch").text() - $(b).find("div.conference-epoch").text();
                     });
                     $("#conferencelist").html(startOrderedDivs);
@@ -81,7 +81,7 @@
                     var deadlOrderedDivs = $divs.sort(function (a, b) {
 //                       console.log($(a).find("div.deadline-epoch").text());
 //                       console.log($(b).find("div.deadline-epoch").text());
-                      return $(a).find("div.deadline-epoch").text() > $(b).find("div.deadline-epoch").text();
+                      return $(a).find("div.deadline-epoch").text() - $(b).find("div.deadline-epoch").text();
                     });
                     $("#conferencelist").html(deadlOrderedDivs);
                   });

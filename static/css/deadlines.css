@@ -120,10 +120,12 @@ footer {
 
 .deadline-epoch {
   color: red;
+  display: none;
 }
 
 .conference-epoch {
   color: green;
+  display: none;
 }
 
 .deadline, .meta {
