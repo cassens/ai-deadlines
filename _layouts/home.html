@@ -60,6 +60,7 @@
               <div class="col-xs-12">
                 <button id="startBtn">Sort by start date</button>
                 <button id="deadlBtn">Sort by deadline</button>
+                <button id="cnfrcBtn">Sort by conference</button>
                 <button id="pastdlBtn">Toggle past deadlines</button>
                 <script type="text/javascript" charset="utf-8">
 
@@ -81,6 +82,15 @@
                     $("#conferencelist").html(deadlOrderedDivs);
                   });
 
+                  $('#cnfrcBtn').on('click', function () {
+                    var $divs = $("div.conferenceitem");
+//                     console.log("deadline");
+                    var cnfrcOrderedDivs = $divs.sort(function (a, b) {
+                      return $(a).find("div.conference-id").text().localeCompare($(b).find("div.conference-id").text());
+                    });
+                    $("#conferencelist").html(cnfrcOrderedDivs);
+                  });
+
                   $('#pastdlBtn').on('click', function () {$(".past").toggle();});
                 </script>
               </div>
@@ -90,7 +100,7 @@
           {% for conf in site.data.conferences %}
           <div class="conferenceitem">
             <div id="{{conf.id}}" class="{% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
-              <div class="conference-epoch"></div><div class="deadline-epoch"></div>
+              <div class="conference-epoch"></div><div class="deadline-epoch"></div><div class="conference-id"></div>
               <div class="row">
                   <div class="col-xs-12 col-sm-6">
                       <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
@@ -133,6 +143,7 @@
     <script type="text/javascript" charset="utf-8">
     $(function() {
         {% for conf in site.data.conferences %}
+        $('#{{conf.id}} .conference-id').html("{{conf.id}}");
         {% if conf.startdate == "TBA" %}
           $('#{{conf.id}} .conference-time').html("{{conf.enddate}}");
           var confStartdate = moment("{{conf.year}}", "YYYY").add(1, 'y');
