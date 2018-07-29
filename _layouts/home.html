@@ -89,7 +89,7 @@
                     var $divs = $("div.conferenceitem");
 //                     console.log("name");
                     var cnfrnOrderedDivs = $divs.sort(function (a, b) {
-                      return $(a).find("div.conference-id").text() > $(b).find("div.conference-id").text();
+                      return $(a).find("div.conference-id").text() - $(b).find("div.conference-id").text();
                     });
                     $("#conferencelist").html(cnfrnOrderedDivs);
                   });
