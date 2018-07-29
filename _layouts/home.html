@@ -65,7 +65,7 @@
                   $('#startBtn').on('click', function () {
                     var $divs = $("div.conferenceitem");
                     console.log("start");
-                    console.log(typeof $divs);
+                    for (const i of $divs) {console.log(typeof i)};
                     var startOrderedDivs = $divs.sort(function (a, b) {
 //                       console.log($(a).find("div.conference-epoch").text());
 //                       console.log($(b).find("div.conference-epoch").text());
