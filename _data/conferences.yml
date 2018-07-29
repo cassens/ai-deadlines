@@ -3,38 +3,6 @@
 
 ############# Past Conferences #############
 
-- name: ICME
-  longname: IEEE International Conference on Multimedia and Expo
-  year: 2018
-  id: icme2018
-  link: http://www.icme2018.org/
-  deadline: "2017-12-15 23:59:59"
-  timezone: GMT
-  date: July 23-27, 2018
-  startdate: "2018-07-23"
-  enddate:   "2018-07-27"
-  place: San Diego, USA
-  rating:
-    - org: CORE2018
-      mark: "B"
-  sub: MM
-
-- name: CogSci
-  longname: Annual Meeting of the Cognitive Science Society
-  year: 2018
-  id: cogsci2018
-  link: http://www.cognitivesciencesociety.org/conference/cogsci-2018/
-  deadline: "2018-02-01 23:59:59"
-  timezone: Etc/GMT-11
-  date: July 25-28, 2018
-  startdate: "2018-07-25"
-  enddate:   "2018-07-28"
-  place: Madison, WI, USA
-  rating:
-    - org: CORE2018
-      mark: "A"
-  sub: COG
-
 ############# Upcoming Conferences #############
 
 - name: COLING
@@ -351,6 +319,21 @@
   enddate:   "2019-07-05"
   place: Leiria, Portugal
   sub: LING
+
+- name: ICME
+  longname: IEEE International Conference on Multimedia and Expo
+  year: 2019
+  id: icme2019
+  link: http://www.icme2019.org/
+  deadline: "2018-11-26 23:59:59"
+  timezone: GMT
+  startdate: "2019-07-08"
+  enddate:   "2019-07-12"
+  place: Shanghai, China
+  rating:
+    - org: CORE2018
+      mark: "B"
+  sub: MM
 
 - name: CogSci
   longname: Annual Meeting of the Cognitive Science Society

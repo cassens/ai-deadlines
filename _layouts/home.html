@@ -33,7 +33,8 @@
                   {{ site.description }}
                   To add/update a conference, <a target="_blank" href="//github.com/{{ site.github_username }}/{{ site.github_repo }}">send in a pull
                   request</a>. The information on this website may be outdated, incomplete, or incorrect. Please check the deadlines with the
-                  individual conferences and do not rely solely on the information given here.
+                  individual conferences and do not rely solely on the information given here. Please be aware that some deadlines might be earlier
+                  than indicated (for example deadlines for workshop proposals).
                 </div>
             </div>
             <br>
@@ -71,7 +72,7 @@
                       return $(a).find("div.conference-epoch").text() - $(b).find("div.conference-epoch").text();
                     });
                     $("#conferencelist").html(startOrderedDivs);
-                  });
+                  });-
 
                   $('#deadlBtn').on('click', function () {
                     var $divs = $("div.conferenceitem");
