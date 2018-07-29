@@ -144,7 +144,7 @@
     <script type="text/javascript" charset="utf-8">
     $(function() {
         {% for conf in site.data.conferences %}
-        $('#{{conf.id}} .conference-id').html({{conf.id}});
+        $('#{{conf.id}} .conference-id').html("{{conf.id}}");
         {% if conf.startdate == "TBA" %}
           $('#{{conf.id}} .conference-time').html("{{conf.enddate}}");
           var confStartdate = moment("{{conf.year}}", "YYYY").add(1, 'y');
