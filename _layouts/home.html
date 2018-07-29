@@ -58,13 +58,14 @@
             </div>
             <div class="row">
               <div class="col-xs-12">
-                <button id="startBnt">Sort by start date</button>
-                <button id="deadlBnt">Sort by deadline</button>
+                <button id="startBtn">Sort by start date</button>
+                <button id="deadlBtn">Sort by deadline</button>
                 <script type="text/javascript" charset="utf-8">
 
-                  $('#startBnt').on('click', function () {
+                  $('#startBtn').on('click', function () {
                     var $divs = $("div.conferenceitem");
                     console.log("start");
+                    console.log(typeof $divs);
                     var startOrderedDivs = $divs.sort(function (a, b) {
 //                       console.log($(a).find("div.conference-epoch").text());
 //                       console.log($(b).find("div.conference-epoch").text());
@@ -73,7 +74,7 @@
                     $("#conferencelist").html(startOrderedDivs);
                   });
                 
-                  $('#deadlBnt').on('click', function () {
+                  $('#deadlBtn').on('click', function () {
                     var $divs = $("div.conferenceitem");
                     console.log("deadline");
                     var deadlOrderedDivs = $divs.sort(function (a, b) {
