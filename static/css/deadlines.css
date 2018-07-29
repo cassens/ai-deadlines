@@ -118,13 +118,7 @@ footer {
   color: #4e9a06;
 }
 
-.deadline-epoch {
-  color: red;
-  display: none;
-}
-
-.conference-epoch {
-  color: green;
+.deadline-epoch, .conference-epoch, .conference-id {
   display: none;
 }
 
