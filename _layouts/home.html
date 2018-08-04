@@ -10,12 +10,14 @@
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}" media="screen,projection">
     <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<!--     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+    <script type="text/javascript" src="{{ "/static/js/jquery.min.js" | prepend:site.baseurl }}></script>
     <script type="text/javascript" src="{{ "/static/js/jquery.countdown.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/moment.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/ouical.min.js" | prepend:site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/static/js/moment.min.js" | prepend:site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/static/js/ouical.min.js" | prepend:site.baseurl }}"></script>
+<!--     <script src="{{ "/static/js/conferencecalendar.js" | prepend:site.baseurl }}"></script> -->
 
   </head>
   <body>
@@ -26,7 +28,7 @@
                 <div class="col-xs-12 col-sm-8">
                   <h1>
                     {{ site.title }}
-                    <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+<!--                     <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe> -->
                   </h1>
                 </div>
                 <div class="meta col-xs-12">
@@ -137,7 +139,9 @@
 
           fon +49 5121 883 40182<br />
           fax +49 5121 883 40183<br />
-          <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.
+          <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br />
+          
+          <b>Privacy:</b> This page is provided as a <a href="https://help.github.com/categories/github-pages-basics/">github page</a>. The use of this page is governed by <a href="https://help.github.com/articles/github-privacy-statement/">github's privacy statement</a>. This page makes use of your web browser's storage capabilities (local storage, cookies) to store your preferences on what conference areas to display. The maintainer of this page does neither store nor analyze any information about its users or its use.
         </footer>
         <hr>
     </div>
@@ -269,13 +273,6 @@
           window.history.pushState('', '', '/?sub=' + subs.join());
         });
     });
-    <!-- Google analytics -->
-//       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-//       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-//       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-//       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-//       ga('create', '{{ site.ga_id }}', 'auto');
-//       ga('send', 'pageview');
     </script>
   </body>
 </html>
