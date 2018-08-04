@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}" media="screen,projection">
     <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
-<!--     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-1.7.2.min.js"
             integrity="sha256-R7aNzoy2gFrVs+pNJ6+SokH04ppcEqJ0yFLkNGoFALQ="
             crossorigin="anonymous"></script>
@@ -142,14 +141,16 @@
 
           fon +49 5121 883 40182<br />
           fax +49 5121 883 40183<br />
-          <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br />
+          <a href="//twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br /><br />
           
           <b>Privacy:</b> This page is provided as a <a href="https://help.github.com/categories/github-pages-basics/">github page</a>. The use of this page is governed by <a href="https://help.github.com/articles/github-privacy-statement/">github's privacy statement</a>. This page makes use of your web browser's storage capabilities (local storage, cookies) to store your preferences on what conference areas to display. The maintainer of this page does neither store nor analyze any information about its users or its use.
         </footer>
         <hr>
     </div>
     <script type="text/javascript" charset="utf-8">
+    // Set conference data
     $(function() {
+        var today = moment();
         {% for conf in site.data.conferences %}
         $('#{{conf.id}} .conference-id').html("{{conf.id}}");
         {% if conf.startdate == "TBA" %}
@@ -161,7 +162,6 @@
           var confEnddate = moment("{{conf.enddate}}", "YYYY-MM-DD");
           $('#{{conf.id}} .conference-time').html(confStartdate.format("ddd MMM DD").toString()+" - "+confEnddate.format("ddd MMM DD YYYY").toString());
           $('#{{conf.id}} .conference-epoch').html(confStartdate.format("X").toString());
-          var today = moment();
           if (today.diff(confEnddate, 'days') > 0) {
             $('#{{conf.id}}').addClass('pastend');
           } else if (today.diff(confStartdate, 'days') >= 0) {
@@ -174,40 +174,25 @@
           var confDeadline = moment("{{conf.year}}", "YYYY").add(50, 'y');
           $('#{{conf.id}} .deadline-epoch').html(confDeadline.format("X").toString());
         {% else %}
-          // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "GMT" {% endif %};
           var confDeadline = moment.tz("{{conf.deadline}}", timezone);
-
-          // render countdown timer
           $('#{{conf.id}} .timer').countdown(confDeadline.toDate(), function(event) {
             $(this).html(event.strftime('%D days %Hh %Mm'));
           });
           $('#{{conf.id}} .deadline-time').html(confDeadline.toString());
           $('#{{conf.id}} .deadline-epoch').html(confDeadline.format("X").toString());
-
-          // add calendar button
           var myCalendar = createCalendar({
             options: {
               class: 'calendar-obj',
-
-              // You can pass an ID. If you don't, one will be generated for you
               id: '{{conf.id}}'
             },
             data: {
-              // Event title
               title: '{{conf.name}} {{conf.year}} deadline',
-
-              // Event start date
-              start: confDeadline.toDate(), // new Date('June 15, 2013 19:00'),
-
-              // Event duration
+              start: confDeadline.toDate(),
               duration: 60,
             }
           });
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
-
-          // check if date has passed, add 'past' class to it
-          var today = moment();
           if (today.diff(confDeadline) > 0) {
             $('#{{conf.id}}').addClass('past');
           } else if (today.diff(confDeadline, 'days') >= -14) {
