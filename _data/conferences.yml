@@ -288,6 +288,23 @@
       mark: "B"
   sub: AI
 
+- name: IJCAI
+  longname: International Joint Conference on Artificial Intelligence
+  year: 2019
+  id: ijcai2019
+  link: https://www.ijcai19.org/
+  deadline: "2019-02-25 23:59:59"
+  timezone: Etc/GMT+12
+  startdate: "2019-08-10"
+  enddate:   "2019-08-16"
+  place: Macao, China
+  rating:
+    - org: CORE2018
+      mark: "A*"
+    - org: "Google h5 2018"
+      mark: "45"
+  sub: AI
+
 - name: Interact
   longname: TC.13 International Conference on Human-Computer Interaction
   year: 2019
@@ -380,24 +397,6 @@
     - org: "Google h5 2018"
       mark: "67"
   sub: [NLP, LING]
-
-- name: IJCAI
-  longname: International Joint Conference on Artificial Intelligence
-  year: 2019
-  id: ijcai2019
-  link: https://www.ijcai19.org/
-  deadline: TBA
-  timezone: Etc/GMT+12
-  date: August 10-16, 2019
-  startdate: "2019-08-10"
-  enddate:   "2019-08-16"
-  place: Macao, China
-  rating:
-    - org: CORE2018
-      mark: "A*"
-    - org: "Google h5 2018"
-      mark: "45"
-  sub: AI
 
 - name: MuC
   longname: Mensch und Computer
