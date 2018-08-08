@@ -1,6 +1,6 @@
 ## Conference Deadlines
 
-Deadlines for conferences in AI, HCI, Multimodality, NLP, SFL and Behavioural Interfaces.
+Deadlines for conferences in AI, HCI, Multimodality, Linguistics, Cognition, and Behavioural Interfaces.
 
 ## Adding/updating a conference
 
@@ -9,7 +9,7 @@ This list builds upon the listing of top-tier AI conferences at [aideadlin.es][2
 To add or update information:
 - Fork the repository
 - Update `_data/conferences.yml`
-- Make sure it has the `name`, `longname`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place` attributes
+- Make sure it has the `name`, `longname`, `year`, `id`, `link`, `deadline`, `timezone`, `startdate`, `enddate`, `place` and `sub` attributes
 - Send a pull request
 
 ## Other repositories
