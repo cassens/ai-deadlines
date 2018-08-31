@@ -5,24 +5,6 @@
 
 ############# Upcoming Conferences #############
 
-- name: COLING
-  longname: Conference on Computational Linguistics
-  year: 2018
-  id: coling2018
-  link: http://coling2018.org/
-  deadline: "2018-03-16 23:59:59"
-  timezone: America/Adak
-  date: August 20-25, 2018
-  startdate: "2018-08-20"
-  enddate:   "2018-08-25"
-  place: Santa Fe, New Mexico, USA
-  rating:
-    - org: CORE2018
-      mark: "A"
-    - org: "Google h5 2018"
-      mark: "35"
-  sub: [NLP, LING]
-
 - name: MuC
   longname: Mensch und Computer
   year: 2018
@@ -553,6 +535,24 @@
       mark: "85"
   sub: HCI
 
+- name: COLING
+  longname: Conference on Computational Linguistics
+  year: 2020
+  id: coling2020
+  #link: http://coling2018.org/
+  link: https://www.sheffield.ac.uk/dcs/research/groups/nlp/iccl
+  deadline: TBA
+  timezone: America/Adak
+  startdate: TBA
+  enddate:   "2020"
+  place: Barcelona, Spain
+  rating:
+    - org: CORE2018
+      mark: "A"
+    - org: "Google h5 2018"
+      mark: "35"
+  sub: [NLP, LING]
+
 - name: AAMAS
   longname: Autonomous Agents and Multiagent Systems
   year: 2020
@@ -620,6 +620,24 @@
     - org: "Google h5 2018"
       mark: "45"
   sub: AI
+
+- name: COLING
+  longname: Conference on Computational Linguistics
+  year: 2022
+  id: coling2022
+  #link: http://coling2018.org/
+  link: https://www.sheffield.ac.uk/dcs/research/groups/nlp/iccl
+  deadline: TBA
+  timezone: America/Adak
+  startdate: TBA
+  enddate:   "2022"
+  place: Gyeongju, South Korea
+  rating:
+    - org: CORE2018
+      mark: "A"
+    - org: "Google h5 2018"
+      mark: "35"
+  sub: [NLP, LING]
 
 ############# Attic #############
   
