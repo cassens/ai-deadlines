@@ -535,6 +535,31 @@
       mark: "85"
   sub: HCI
 
+- name: ESFLC
+  longname: European Systemic Functional Linguistics Conference
+  year: 2020
+  id: esflc2020
+  link: http://www.isfla.org/Systemics/Conferences/Timetable.html
+  deadline: TBA
+  timezone: Etc/GMT+12
+  startdate: "2020-07-01"
+  enddate:   "2020-07-04"
+  place: Sheffield, UK
+  sub: LING
+
+- name: ISFC
+  longname: International Systemic-Functional Congress
+  year: 2020
+  id: isfc2020
+  link: http://www.isfla.org/Systemics/Conferences/Timetable.html
+  deadline: TBA
+  timezone: Etc/GMT+12
+  date: July 2020
+  startdate: TBA
+  enddate:   "July 2020"
+  place: Guangzhou, China
+  sub: LING
+
 - name: COLING
   longname: Conference on Computational Linguistics
   year: 2020
