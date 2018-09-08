@@ -5,60 +5,15 @@
 
 ############# Upcoming Conferences #############
 
-- name: MuC
-  longname: Mensch und Computer
-  year: 2018
-  id: muc2018
-  link: http://muc2018.mensch-und-computer.de/
-  deadline: "2018-04-13 23:59:59"
-  timezone: Europe/Berlin
-  date: September 2-5, 2018
-  startdate: "2018-09-02"
-  enddate:   "2018-09-05"
-  place: Dresden, Germany
-  sub: HCI
-
-- name: Interspeech
-  longname: Interspeech
-  year: 2018
-  id: interspeech2018
-  link: http://interspeech2018.org/
-  deadline: "2018-03-23 23:59:59"
-  timezone: GMT
-  date: September 2-6, 2018
-  startdate: "2018-09-02"
-  enddate:   "2018-09-06"
-  place: Hyderabad, India
-  rating:
-    - org: CORE2018
-      mark: "A"
-    - org: "Google h5 2018"
-      mark: "47"
-  sub: MM
-  
-- name: LinC
-  longname:  LinC Summer School and Workshop
-  year: 2018
-  id: linc2018
-  link: http://www.anglistik.rwth-aachen.de/cms/Anglistik/Forschung/Konferenzen-Veranstaltungen/~nyeg/LinC-Workshop/lidx/1/
-  deadline: "2018-07-31 23:59:59"
-  timezone: Europe/Berlin
-  date: September 3-7, 2018
-  startdate: "2018-09-03"
-  enddate:   "2018-09-07"
-  place: Aachen, Germany
-  sub: LING
-
 - name: NordiCHI
   longname: Nordic Forum for Human-Computer Interaction
   year: 2018
   id: nordichi2018
   link: http://www.nordichi2018.org/
   deadline: "2018-04-15 23:59:59"
-  timezone: America/Los_Angeles
-  date: October 1-3, 2018
   startdate: "2018-10-01"
   enddate:   "2018-10-03"
+  timezone: America/Los_Angeles
   place: Oslo, Norway
   sub: HCI
 
@@ -67,9 +22,8 @@
   year: 2018
   id: icmi2018
   link: http://icmi.acm.org/2018/
-  deadline: "2018-05-01 23:59:59"
   timezone: America/Los_Angeles
-  date: October 16-20, 2018
+  deadline: "2018-05-01 23:59:59"
   startdate: "2018-10-16"
   enddate:   "2018-10-20"
   place: Boulder, Colorado, USA
@@ -159,13 +113,15 @@
   place: Southampton, UK
   sub: HCI
 
+############# Conferences 2019 #############
+
 - name: AIES
   longname: "AAAI/ACM Conference on AI, Ethics, and Society"
   year: 2019
   id: aies2019
   link: http://www.aies-conference.com/
-  deadline: "2018-11-02 23:59:59"
   timezone: GMT
+  deadline:  "2018-11-02 23:59:59"
   startdate: "2019-01-27"
   enddate:   "2019-01-28"
   place: Honolulu, Hawaii, USA
@@ -176,9 +132,8 @@
   year: 2019
   id: aaai2019
   link: https://aaai.org/Conferences/AAAI-19/
-  deadline: "2018-09-05 23:59:59"
   timezone: Etc/GMT+10
-  date: January 27 - February 1, 2019
+  deadline:  "2018-09-05 23:59:59"
   startdate: "2019-01-27"
   enddate:   "2019-02-01"
   place: Honolulu, Hawaii, USA
@@ -194,9 +149,8 @@
   year: 2019
   id: hri2019
   link: http://humanrobotinteraction.org/2019/
-  deadline: "2018-10-01 23:59:59"
   timezone: GMT
-  date: March 11-14, 2019
+  deadline:  "2018-10-01 23:59:59"
   startdate: "2019-03-11"
   enddate:   "2019-03-14"
   place: Daegu, Korea
@@ -207,9 +161,8 @@
   year: 2019
   id: iui2019
   link: http://iui.acm.org/2019/
-  deadline: "2018-10-01 23:59:59"
-  timezone: GMT
-  date: March 17-20, 2019
+  timezone: America/Los_Angeles
+  deadline:  "2018-10-01 23:59:59"
   startdate: "2019-03-17"
   enddate:   "2019-03-20"
   place: Los Angeles, California, USA
@@ -223,9 +176,8 @@
   year: 2019
   id: chi2019
   link: http://chi2019.acm.org/
-  deadline: "2018-09-14 11:59:59"
   timezone: America/Los_Angeles
-  date: May 4-9, 2019
+  deadline:  "2018-09-14 11:59:59"
   startdate: "2019-05-04"
   enddate:   "2019-05-09"
   place: Glasgow, UK
@@ -241,9 +193,8 @@
   year: 2019
   id: icassp2019
   link: http://icassp2019.com/
-  deadline: "2018-10-29 23:59:59"
   timezone: GMT
-  date: May 12-17, 2019
+  deadline:  "2018-10-29 23:59:59"
   startdate: "2019-05-12"
   enddate:   "2019-05-17"
   place: Brighton, UK
@@ -259,9 +210,8 @@
   year: 2019
   id: aime2019
   link: http://aime19.aimedicine.info/
-  deadline: "2019-01-15 23:59:59"
   timezone: GMT
-  date: June 26-29, 2019
+  deadline:  "2019-01-15 23:59:59"
   startdate: "2019-06-26"
   enddate:   "2019-06-29"
   place: Poznan, Poland
@@ -270,13 +220,86 @@
       mark: "B"
   sub: AI
 
+############# Incomplete dates from here #############
+
+- name: ESFLC
+  longname: European Systemic Functional Linguistics Conference
+  year: 2019
+  id: esflc2019
+  link: http://www.isfla.org/Systemics/Conferences/Timetable.html
+  timezone: Etc/GMT+12
+  deadline:  TBA
+  startdate: "2019-07-03"
+  enddate:   "2019-07-05"
+  place: Leiria, Portugal
+  sub: LING
+
+- name: ICME
+  longname: IEEE International Conference on Multimedia and Expo
+  year: 2019
+  id: icme2019
+  link: http://www.icme2019.org/
+  deadline:  "2018-11-26 23:59:59"
+  startdate: "2019-07-08"
+  enddate:   "2019-07-12"
+  timezone: GMT
+  place: Shanghai, China
+  rating:
+    - org: CORE2018
+      mark: "B"
+  sub: MM
+
+- name: CogSci
+  longname: Annual Meeting of the Cognitive Science Society
+  year: 2019
+  id: cogsci2019
+  link: http://www.cognitivesciencesociety.org/conferences/
+  timezone: Etc/GMT-11
+  deadline:  TBA
+  startdate: "2019-07-24"
+  enddate:   "2019-07-27"
+  place: Montréal, Canada
+  rating:
+    - org: CORE2018
+      mark: "A"
+  sub: COG
+
+- name: ACL
+  longname: Annual Meeting of the Association for Computational Linguistics
+  year: 2019
+  id: acl2019
+  link: http://acl2019.org/
+  timezone: Etc/GMT+12
+  deadline:  TBA
+  startdate: "2019-07-28"
+  enddate:   "2019-08-02"
+  place: Florence, Italy
+  rating:
+    - org: CORE2018
+      mark: "A*"
+    - org: "Google h5 2018"
+      mark: "67"
+  sub: [NLP, LING]
+
+- name: ISFC
+  longname: International Systemic-Functional Congress
+  year: 2019
+  id: isfc2019
+  link: http://www.isfla.org/Systemics/Conferences/Timetable.html
+  timezone: Etc/GMT+12
+  deadline:  TBA
+  startdate: TBA
+  enddate:   "July 2019"
+  place: Santiago, Chile
+  sub: LING
+
 - name: IJCAI
   longname: International Joint Conference on Artificial Intelligence
   year: 2019
   id: ijcai2019
   link: https://www.ijcai19.org/
-  deadline: "2019-02-25 23:59:59"
   timezone: Etc/GMT+12
+  deadline:  "2019-02-25 23:59:59"
   startdate: "2019-08-10"
   enddate:   "2019-08-16"
   place: Macao, China
@@ -292,9 +315,8 @@
   year: 2019
   id: interact2019
   link: https://interact2019.org/
-  deadline: "2019-01-14 23:59:59"
   timezone: GMT
-  date: September 2-6, 2019
+  deadline:  "2019-01-14 23:59:59"
   startdate: "2019-09-02"
   enddate:   "2019-09-06"
   place: Paphos, Cyprus
@@ -303,93 +325,15 @@
       mark: "A"
   sub: HCI
 
-############# Deadlines TBA #############
-
-- name: ISFC
-  longname: International Systemic-Functional Congress
-  year: 2019
-  id: isfc2019
-  link: http://www.isfla.org/Systemics/Conferences/Timetable.html
-  deadline: TBA
-  timezone: Etc/GMT+12
-  date: July 2019
-  startdate: TBA
-  enddate:   "July 2019"
-  place: Santiago, Chile
-  sub: LING
-
-- name: ESFLC
-  longname: European Systemic Functional Linguistics Conference
-  year: 2019
-  id: esflc2019
-  link: http://www.isfla.org/Systemics/Conferences/Timetable.html
-  deadline: TBA
-  timezone: Etc/GMT+12
-  date: July 3-5, 2019
-  startdate: "2019-07-03"
-  enddate:   "2019-07-05"
-  place: Leiria, Portugal
-  sub: LING
-
-- name: ICME
-  longname: IEEE International Conference on Multimedia and Expo
-  year: 2019
-  id: icme2019
-  link: http://www.icme2019.org/
-  deadline: "2018-11-26 23:59:59"
-  timezone: GMT
-  startdate: "2019-07-08"
-  enddate:   "2019-07-12"
-  place: Shanghai, China
-  rating:
-    - org: CORE2018
-      mark: "B"
-  sub: MM
-
-- name: CogSci
-  longname: Annual Meeting of the Cognitive Science Society
-  year: 2019
-  id: cogsci2019
-  link: http://www.cognitivesciencesociety.org/conferences/
-  deadline: TBA
-  timezone: Etc/GMT-11
-  date: July 24-27, 2019
-  startdate: "2019-07-24"
-  enddate:   "2019-07-27"
-  place: Montréal, Canada
-  rating:
-    - org: CORE2018
-      mark: "A"
-  sub: COG
-
-- name: ACL
-  longname: Annual Meeting of the Association for Computational Linguistics
-  year: 2019
-  id: acl2019
-  link: http://acl2019.org/
-  deadline: TBA
-  timezone: Etc/GMT+12
-  date: July 28-August 2, 2019
-  startdate: "2019-07-28"
-  enddate:   "2019-08-02"
-  place: Florence, Italy
-  rating:
-    - org: CORE2018
-      mark: "A*"
-    - org: "Google h5 2018"
-      mark: "67"
-  sub: [NLP, LING]
-
 - name: MuC
   longname: Mensch und Computer
   year: 2019
   id: muc2019
   link: http://muc2019.mensch-und-computer.de/
-  deadline: "2019-04-05 23:59:59"
-  timezone: Europe/Berlin
-  date: September 8-11, 2019
+  deadline:  "2019-04-05 23:59:59"
   startdate: "2019-09-08"
   enddate:   "2019-09-11"
+  timezone: Europe/Berlin
   place: Hamburg, Germany
   sub: HCI
 
@@ -397,10 +341,9 @@
   longname: International Conference on Case-Based Reasoning
   year: 2019
   id: iccbr2019
-  link: http://iccbr.org/
-  deadline: TBA
+  link: http://iccbr2019.com/
   timezone: Europe/Berlin
-  date: September 8-12, 2019
+  deadline:  TBA
   startdate: "2019-09-08"
   enddate:   "2019-09-12"
   place: Otzenhausen, Germany
@@ -409,14 +352,30 @@
       mark: "B"
   sub: AI
 
+- name: Interspeech
+  longname: Interspeech
+  year: 2019
+  id: interspeech2010
+  link: http://interspeech2019.org/
+  timezone: GMT
+  deadline: "2019-03-29 23:59:59"
+  startdate: "2019-09-15"
+  enddate:   "2019-09-19"
+  place: Graz, Austria
+  rating:
+    - org: CORE2018
+      mark: "A"
+    - org: "Google h5 2018"
+      mark: "47"
+  sub: MM
+
 - name: ICMI
   longname: International Conference on Multimodal Interaction
   year: 2019
   id: icmi2019
   link: http://icmi.acm.org/2019/
-  deadline: TBA
   timezone: America/Los_Angeles
-  date: October 14-18, 2019
+  deadline:  TBA
   startdate: "2019-10-14"
   enddate:   "2019-10-18"
   place: Suzhou, China
@@ -424,6 +383,8 @@
     - org: CORE2018
       mark: "B"
   sub: [HCI, MM]
+
+############# Conferences 2019 tba #############
 
 - name: AAMAS
   longname: Autonomous Agents and Multiagent Systems
@@ -454,16 +415,17 @@
   place: TBA
   sub: [AI, HCI, AMI, LING, COG]
 
+############# Conferences 2020 #############
+
 - name: IUI
   longname: ACM International Conference on Intelligent User Interfaces
   year: 2020
   id: iui2020
   link: http://iui.acm.org/
   deadline: TBA
-  timezone: GMT
-  date: March 17-20, 2020
   startdate: "2020-03-17"
   enddate:   "2020-03-20"
+  timezone: GMT
   place: Cagliari, Italy
   rating:
     - org: CORE2018
@@ -476,10 +438,9 @@
   id: hri2020
   link: http://humanrobotinteraction.org/2020/
   deadline: TBA
-  timezone: GMT
-  date: March 23-26, 2020
   startdate: "2020-03-23"
   enddate:   "2020-03-26"
+  timezone: GMT
   place: Cambridge, UK
   sub: [HCI, MM]
 
@@ -489,10 +450,9 @@
   id: ijcai2020
   link: https://www.ijcai-20.org/
   deadline: TBA
-  timezone: Etc/GMT+12
-  date: August 15-21, 2020
   startdate: "2020-08-15"
   enddate:   "2020-08-21"
+  timezone: Etc/GMT+12
   place: Nagoya, Japan
   rating:
     - org: CORE2018
@@ -507,10 +467,9 @@
   id: ecai2020
   link: https://www.eurai.org/
   deadline: TBA
-  timezone: Etc/GMT+12
-  date: August 24-28, 2020
   startdate: "2020-08-24"
   enddate:   "2020-08-28"
+  timezone: Etc/GMT+12
   place: Santiago de Compostela, Spain
   rating:
     - org: CORE2018
@@ -523,10 +482,9 @@
   id: chi2020
   link: https://sigchi.org/conferences/upcoming-conferences/
   deadline: TBA
-  timezone: America/Los_Angeles
-  date: August 25-30, 2020
   startdate: "2020-08-25"
   enddate:   "2020-08-30"
+  timezone: America/Los_Angeles
   place: Honolulu, Hawaii, USA
   rating:
     - org: CORE2018
@@ -541,9 +499,9 @@
   id: esflc2020
   link: http://www.isfla.org/Systemics/Conferences/Timetable.html
   deadline: TBA
-  timezone: Etc/GMT+12
   startdate: "2020-07-01"
   enddate:   "2020-07-04"
+  timezone: Etc/GMT+12
   place: Sheffield, UK
   sub: LING
 
@@ -567,10 +525,10 @@
   #link: http://coling2018.org/
   link: https://www.sheffield.ac.uk/dcs/research/groups/nlp/iccl
   deadline: TBA
-  timezone: America/Adak
   startdate: TBA
   enddate:   "2020"
   place: Barcelona, Spain
+  timezone: America/Adak
   rating:
     - org: CORE2018
       mark: "A"
@@ -628,6 +586,34 @@
       mark: "43"
   sub: LING
   
+- name: LinC
+  longname:  LinC Summer School and Workshop
+  year: 2020
+  id: linc2020
+  link: http://www.anglistik.rwth-aachen.de/cms/Anglistik/Forschung/Konferenzen-Veranstaltungen/~nyeg/LinC-Workshop/lidx/1/
+  deadline: TBA
+  startdate: TBA
+  enddate:   "2020"
+  timezone: Europe/Berlin
+  place: Madrid, Spain
+  sub: LING
+
+############# Conferences 2021 #############
+
+- name: ESFLC
+  longname: European Systemic Functional Linguistics Conference
+  year: 2021
+  id: esflc2021
+  link: http://www.isfla.org/Systemics/Conferences/Timetable.html
+  deadline:  TBA
+  startdate: TBA
+  enddate:   "2021"
+  timezone: Etc/GMT+12
+  place: Odense, Denmark
+  sub: LING
+
+############# Conferences 2022 #############
+
 - name: IJCAI-ECAI
   longname: International Joint Conference on Artificial Intelligence
   year: 2022
@@ -635,7 +621,6 @@
   link: https://www.ijcai.org/
   deadline: TBA
   timezone: Etc/GMT+12
-  date: 2022, TBA
   startdate: TBA
   enddate:   "2022"
   place: Bologna, Italy
@@ -663,6 +648,20 @@
     - org: "Google h5 2018"
       mark: "35"
   sub: [NLP, LING]
+
+############# Conferences 2023 #############
+
+- name: ISFC-ESFLC
+  longname: Combined International and European Systemic Functional Linguistics Conference
+  year: 2023
+  id: esflc2023
+  link: http://www.isfla.org/Systemics/Conferences/Timetable.html
+  deadline:  TBA
+  startdate: TBA
+  enddate:   "2023"
+  timezone: Etc/GMT+12
+  place: Cardiff, Wales, UK
+  sub: LING
 
 ############# Attic #############
   
