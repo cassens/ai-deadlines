@@ -3,51 +3,6 @@
 
 ############# Past Conferences #############
 
-############# Upcoming Conferences #############
-
-- name: NordiCHI
-  longname: Nordic Forum for Human-Computer Interaction
-  year: 2018
-  id: nordichi2018
-  link: http://www.nordichi2018.org/
-  deadline: "2018-04-15 23:59:59"
-  startdate: "2018-10-01"
-  enddate:   "2018-10-03"
-  timezone: America/Los_Angeles
-  place: Oslo, Norway
-  sub: HCI
-
-- name: ICMI
-  longname: International Conference on Multimodal Interaction
-  year: 2018
-  id: icmi2018
-  link: http://icmi.acm.org/2018/
-  timezone: America/Los_Angeles
-  deadline: "2018-05-01 23:59:59"
-  startdate: "2018-10-16"
-  enddate:   "2018-10-20"
-  place: Boulder, Colorado, USA
-  rating:
-    - org: CORE2018
-      mark: "B"
-  sub: [HCI, MM]
-
-- name: ACMmultimedia
-  longname: ACM Multimedia
-  year: 2018
-  id: acmmm2018
-  link: http://www.acmmm.org/2018/
-  deadline: "2018-04-08 23:59:59"
-  timezone: America/Los_Angeles
-  date: October 22-26, 2018
-  startdate: "2018-10-22"
-  enddate:   "2018-10-26"
-  place: Seoul, Korea
-  rating:
-    - org: CORE2018
-      mark: "A*"
-  sub: MM
-
 - name: CoNLL
   longname: SIGNLL Conference on Computational Natural Language Learning
   year: 2018
@@ -84,21 +39,7 @@
       mark: "58"
   sub: [NLP, LING]
 
-- name: AmI
-  longname: European Conference on Ambient Intelligence
-  year: 2018
-  id: ami2018
-  link: http://www.cyprusconferences.org/ami2018/
-  deadline: "2018-07-07 23:59:59"
-  timezone: Etc/GMT-12
-  date: November 12-14, 2018
-  startdate: "2018-11-12"
-  enddate:   "2018-11-14"
-  place: Cyprus
-  rating:
-    - org: CORE2018
-      mark: "C"
-  sub: AMI
+############# Upcoming Conferences #############
 
 - name: HAI
   longname: International Conference on Human-Agent Interaction
@@ -369,6 +310,18 @@
       mark: "47"
   sub: MM
 
+- name: BreMM
+  longname: Bremen Conference on Multimodality
+  year: 2019
+  id: bremm2019
+  link: https://www.mm2014.uni-bremen.de/
+  timezone: GMT
+  deadline:  "2018-12-05 23:59:59"
+  startdate: "2019-09-25"
+  enddate:   "2019-09-27"
+  place: Bremen, Germany
+  sub: [AI, LING]
+
 - name: ICMI
   longname: International Conference on Multimodal Interaction
   year: 2019
@@ -383,6 +336,36 @@
     - org: CORE2018
       mark: "B"
   sub: [HCI, MM]
+
+- name: ACMmultimedia
+  longname: ACM Multimedia
+  year: 2019
+  id: acmmm2019
+  link: http://www.acmmm.org/2019/
+  deadline: "2019-04-01 23:59:59"
+  timezone: America/Los_Angeles
+  startdate: "2019-10-21"
+  enddate:   "2019-10-25"
+  place: Nice, France
+  rating:
+    - org: CORE2018
+      mark: "A*"
+  sub: MM
+
+- name: AmI
+  longname: European Conference on Ambient Intelligence
+  year: 2019
+  id: ami2019
+  link: http://ami-conferences.org/2019/
+  deadline: TBA
+  timezone: Etc/GMT-12
+  startdate: "2019-11-13"
+  enddate:   "2019-11-15"
+  place: Rome, Italy
+  rating:
+    - org: CORE2018
+      mark: "C"
+  sub: AMI
 
 ############# Conferences 2019 tba #############
 
@@ -504,6 +487,18 @@
   timezone: Etc/GMT+12
   place: Sheffield, UK
   sub: LING
+
+- name: NordiCHI
+  longname: Nordic Forum for Human-Computer Interaction
+  year: 2020
+  id: nordichi2020
+  link: http://nordichi2020.org/
+  deadline: TBA
+  startdate: "2020-10-25"
+  enddate:   "2020-10-29"
+  timezone: America/Los_Angeles
+  place: Tallinn, Estonia
+  sub: HCI
 
 - name: ISFC
   longname: International Systemic-Functional Congress
