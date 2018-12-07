@@ -269,6 +269,21 @@
       mark: "A"
   sub: HCI
 
+- name: ACII
+  longname: International Conference on Affective Computing & Intelligent Interaction
+  year: 2019
+  id: acii2019
+  link: http://acii-conf.org/2019/
+  timezone: Europe/Berlin
+  deadline:  "2019-04-12 23:59:59"
+  startdate: "2019-09-03"
+  enddate:   "2019-09-06"
+  place: Cambridge, UK
+  rating:
+    - org: CORE2018
+      mark: "C"
+  sub: AI
+
 - name: MuC
   longname: Mensch und Computer
   year: 2019
