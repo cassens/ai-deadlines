@@ -10,9 +10,8 @@
   year: 2018
   id: hai2018
   link: http://hai-conference.net/hai2018/
-  deadline: "2018-10-01 23:59:59"
   timezone: GMT
-  date: December 15-18, 2018
+  deadline:  "2018-10-01 23:59:59"
   startdate: "2018-12-15"
   enddate:   "2018-12-18"
   place: Southampton, UK
@@ -49,6 +48,18 @@
       mark: "56"
   sub: AI
 
+- name: LAK
+  longname: International Learning Analytics and Knowledge
+  year: 2019
+  id: lak2019
+  link: https://lak19.solaresearch.org/
+  timezone: America/Los_Angeles
+  deadline:  "2018-10-01 11:59:59"
+  startdate: "2019-03-04"
+  enddate:   "2019-03-08"
+  place: Tempe, AZ, USA
+  sub: HCI
+
 - name: HRI
   longname: ACM/IEEE International Conference on Human-Robot Interaction
   year: 2019
@@ -75,6 +86,21 @@
     - org: CORE2018
       mark: "A"
   sub: [AI, HCI, MM]
+
+- name: TEI
+  longname: International Conference on Tangible, Embedded, and Embodied Interaction
+  year: 2019
+  id: tei2019
+  link: https://tei.acm.org/2019/
+  deadline:  "2018-08-08 23:59:59"
+  startdate: "2019-03-17"
+  enddate:   "2019-03-20"
+  timezone: GMT
+  place: Tempe, AZ, USA
+  rating:
+    - org: CORE2018
+      mark: "A"
+  sub: [HCI, MM]
 
 - name: CHI
   longname: ACM SIG on Computer-Human Interaction
@@ -110,6 +136,21 @@
       mark: "67"
   sub: MM
 
+- name: AAMAS
+  longname: Autonomous Agents and Multiagent Systems
+  year: 2019
+  id: aamas2019
+  link: http://aamas2019.encs.concordia.ca/
+  timezone: Etc/GMT+12
+  deadline:  "2019-11-12 23:59:59"
+  startdate: "2019-05-13"
+  enddate:   "2019-05-17"
+  place: Montreal, Canada
+  rating:
+    - org: CORE2018
+      mark: "A*"
+  sub: AI
+
 - name: AIME
   longname: Conference on Artificial Intelligence in Medicine
   year: 2019
@@ -125,15 +166,13 @@
       mark: "B"
   sub: AI
 
-############# Incomplete dates from here #############
-
 - name: ESFLC
   longname: European Systemic Functional Linguistics Conference
   year: 2019
   id: esflc2019
-  link: http://www.isfla.org/Systemics/Conferences/Timetable.html
+  link: https://sites.ipleiria.pt/esflc2019/
   timezone: Etc/GMT+12
-  deadline:  TBA
+  deadline:  "2019-01-25 23:59:59"
   startdate: "2019-07-03"
   enddate:   "2019-07-05"
   place: Leiria, Portugal
@@ -158,9 +197,9 @@
   longname: Annual Meeting of the Cognitive Science Society
   year: 2019
   id: cogsci2019
-  link: http://www.cognitivesciencesociety.org/conferences/
+  link: http://www.cognitivesciencesociety.org/conference/cogsci-2019/
   timezone: Etc/GMT-11
-  deadline:  TBA
+  deadline:  "2019-02-01 23:59:59"
   startdate: "2019-07-24"
   enddate:   "2019-07-27"
   place: Montréal, Canada
@@ -175,7 +214,7 @@
   id: acl2019
   link: http://acl2019.org/
   timezone: Etc/GMT+12
-  deadline:  TBA
+  deadline:  "2019-03-04 23:59:59"
   startdate: "2019-07-28"
   enddate:   "2019-08-02"
   place: Florence, Italy
@@ -190,11 +229,11 @@
   longname: International Systemic-Functional Congress
   year: 2019
   id: isfc2019
-  link: http://www.isfla.org/Systemics/Conferences/Timetable.html
+  link: http://letras.uc.cl/letras/isfc2019santiagochile/en/important-dates
   timezone: Etc/GMT+12
-  deadline:  TBA
-  startdate: TBA
-  enddate:   "July 2019"
+  deadline:  "2017-12-17 23:59:59"
+  startdate: "2019-07-22"
+  enddate:   "2019-07-26"
   place: Santiago, Chile
   sub: LING
 
@@ -242,6 +281,8 @@
   place: Hamburg, Germany
   sub: HCI
 
+############# Incomplete dates from here #############
+
 - name: ICCBR
   longname: International Conference on Case-Based Reasoning
   year: 2019
@@ -274,6 +315,23 @@
       mark: "47"
   sub: MM
 
+- name: Ubicomp
+  longname: ACM International Joint Conference on Pervasive and Ubiquitous Computing
+  year: 2019
+  id: ubicomp2019
+  link: http://ubicomp.org/
+  deadline:  TBA
+  startdate: "2019-09-19"
+  enddate:   "2019-09-20"
+  timezone: GMT
+  place: London, UK
+  rating:
+    - org: CORE2018
+      mark: "A*"
+    - org: "Google h5 2018"
+      mark: "52"
+  sub: [HCI, MM]
+
 - name: BreMM
   longname: Bremen Conference on Multimodality
   year: 2019
@@ -286,13 +344,28 @@
   place: Bremen, Germany
   sub: [AI, LING]
 
+- name: MobileHCI
+  longname: International Conference on Human-Computer Interaction with Mobile Devices and Services
+  year: 2019
+  id: mobilehci2019
+  link: https://mobilehci.acm.org/2019/
+  deadline:  "2019-02-01 23:59:59"
+  startdate: "2019-10-01"
+  enddate:   "2019-10-04"
+  timezone: GMT
+  place: Taipei, Taiwan
+  rating:
+    - org: CORE2018
+      mark: "B"
+  sub: HCI
+
 - name: ICMI
   longname: International Conference on Multimodal Interaction
   year: 2019
   id: icmi2019
   link: http://icmi.acm.org/2019/
   timezone: America/Los_Angeles
-  deadline:  TBA
+  deadline:  "2019-05-01 23:59:59"
   startdate: "2019-10-14"
   enddate:   "2019-10-18"
   place: Suzhou, China
@@ -301,13 +374,25 @@
       mark: "B"
   sub: [HCI, MM]
 
+- name: SUI
+  longname: Symposium on Spatial User Interaction
+  year: 2019
+  id: sui2019
+  link: http://sui.acm.org/2019/
+  timezone: America/Los_Angeles
+  deadline: TBA
+  startdate: "2019-10-19"
+  enddate:   "2019-10-20"
+  place: New Orleans, LA, US
+  sub: [HCI, MM]
+
 - name: ACMmultimedia
   longname: ACM Multimedia
   year: 2019
   id: acmmm2019
   link: http://www.acmmm.org/2019/
-  deadline: "2019-04-01 23:59:59"
   timezone: America/Los_Angeles
+  deadline:  "2019-04-01 23:59:59"
   startdate: "2019-10-21"
   enddate:   "2019-10-25"
   place: Nice, France
@@ -321,8 +406,8 @@
   year: 2019
   id: emnlp2019
   link: https://www.emnlp-ijcnlp2019.org/
-  deadline: "2019-05-21 23:59:59"
   timezone: America/Los_Angeles
+  deadline:  "2019-05-21 23:59:59"
   startdate: "2019-11-03"
   enddate:   "2019-11-07"
   place: Hong Kong, China
@@ -333,13 +418,43 @@
       mark: "58"
   sub: [NLP, LING]
 
+- name: ISS
+  longname: Interactive Surfaces and Spaces
+  year: 2019
+  id: iss2019
+  link: http://iss.acm.org/2019/
+  timezone: America/Los_Angeles
+  deadline: TBA
+  startdate: "2019-11-10"
+  enddate:   "2019-11-13"
+  place: Daejeon, Korea
+  rating:
+    - org: CORE2018
+      mark: "A"
+  sub: [HCI, MM]
+
+- name: VRST
+  longname: ACM Symposium on Virtual Reality Software and Technology
+  year: 2019
+  id: vrst2019
+  link: http://vrst.acm.org/vrst2019/
+  timezone: America/Los_Angeles
+  deadline: TBA
+  startdate: "2019-11-12"
+  enddate:   "2019-11-15"
+  place: Parramatta, Australia
+  rating:
+    - org: CORE2018
+      mark: "A"
+  sub: [HCI, MM]
+
 - name: AmI
   longname: European Conference on Ambient Intelligence
   year: 2019
   id: ami2019
   link: http://ami-conferences.org/2019/
-  deadline: TBA
   timezone: Etc/GMT-12
+  deadline: TBA
   startdate: "2019-11-13"
   enddate:   "2019-11-15"
   place: Rome, Italy
@@ -347,6 +462,21 @@
     - org: CORE2018
       mark: "C"
   sub: AMI
+
+- name: MUM
+  longname: International Conference on Mobile and Ubiquitous Multimedia
+  year: 2019
+  id: mum2019
+  link: http://www.mum-conf.org/2019/
+  timezone: America/Los_Angeles
+  deadline:  "2019-08-31 11:59:59"
+  startdate: "2019-11-26"
+  enddate:   "2019-11-29"
+  place: Pisa, Italy
+  rating:
+    - org: ERA2010
+      mark: "B"
+  sub: HCI
 
 ############# Conferences 2019 tba #############
 
@@ -367,36 +497,46 @@
       mark: "21"
   sub: [NLP, LING]
 
-- name: AAMAS
-  longname: Autonomous Agents and Multiagent Systems
+- name: HAI
+  longname: International Conference on Human-Agent Interaction
   year: 2019
-  id: aamas2019
-  link: http://www.ifaamas.org/
-  deadline: TBA
-  timezone: Etc/GMT+12
-  date: 2019, TBA
+  id: hai2019
+  link: http://hai-conference.net/hai2019/
+  timezone: GMT
+  deadline:  TBA
   startdate: TBA
   enddate:   "2019"
-  place: Montreal, Canada
-  rating:
-    - org: CORE2018
-      mark: "A*"
-  sub: AI
+  place: TBA
+  sub: HCI
 
 - name: MRC
   longname: Workshop Modelling and Reasoning in Context
   year: 2019
   id: mrc2019
   link: http://mrc.kriwi.de/
-  deadline: TBA
   timezone: Etc/GMT+12
-  date: 2019, TBA
+  deadline:  TBA
   startdate: TBA
   enddate:   "2019"
   place: TBA
   sub: [AI, HCI, AMI, LING, COG]
 
 ############# Conferences 2020 #############
+
+- name: TEI
+  longname: International Conference on Tangible, Embedded, and Embodied Interaction
+  year: 2020
+  id: tei2020
+  link: https://tei.acm.org/2020/
+  deadline:  TBA
+  startdate: "2020-02-09"
+  enddate:   "2020-02-13"
+  timezone: GMT
+  place: Sydney, Australia
+  rating:
+    - org: CORE2018
+      mark: "A"
+  sub: [HCI, MM]
 
 - name: IUI
   longname: ACM International Conference on Intelligent User Interfaces
@@ -424,6 +564,18 @@
   timezone: GMT
   place: Cambridge, UK
   sub: [HCI, MM]
+
+- name: ESFLC
+  longname: European Systemic Functional Linguistics Conference
+  year: 2020
+  id: esflc2020
+  link: http://www.isfla.org/Systemics/Conferences/Timetable.html
+  deadline: TBA
+  startdate: "2020-07-01"
+  enddate:   "2020-07-04"
+  timezone: Etc/GMT+12
+  place: Sheffield, UK
+  sub: LING
 
 - name: IJCAI-PRICAI
   longname: International Joint Conference on Artificial Intelligence
@@ -462,7 +614,7 @@
   year: 2020
   id: chi2020
   link: https://sigchi.org/conferences/upcoming-conferences/
-  deadline: TBA
+  deadline: "2019-09-13 23:59:59"
   startdate: "2020-08-25"
   enddate:   "2020-08-30"
   timezone: America/Los_Angeles
@@ -474,17 +626,17 @@
       mark: "85"
   sub: HCI
 
-- name: ESFLC
-  longname: European Systemic Functional Linguistics Conference
+- name: MuC
+  longname: Mensch und Computer
   year: 2020
-  id: esflc2020
-  link: http://www.isfla.org/Systemics/Conferences/Timetable.html
-  deadline: TBA
-  startdate: "2020-07-01"
-  enddate:   "2020-07-04"
-  timezone: Etc/GMT+12
-  place: Sheffield, UK
-  sub: LING
+  id: muc2020
+  link: http://muc2020.mensch-und-computer.de/
+  deadline:  TBA
+  startdate: "2020-09-06"
+  enddate:   "2020-09-09"
+  timezone: Europe/Berlin
+  place: Magdeburg, Germany
+  sub: HCI
 
 - name: NordiCHI
   longname: Nordic Forum for Human-Computer Interaction
@@ -497,6 +649,23 @@
   timezone: America/Los_Angeles
   place: Tallinn, Estonia
   sub: HCI
+
+- name: ISS
+  longname: Interactive Surfaces and Spaces
+  year: 2020
+  id: iss2020
+  link: http://iss.acm.org/
+  timezone: America/Los_Angeles
+  deadline: TBA
+  startdate: "2020-11-08"
+  enddate:   "2020-11-11"
+  place: Lisbon, Portugal
+  rating:
+    - org: CORE2018
+      mark: "A"
+  sub: [HCI, MM]
+
+############# Conferences 2020 tba #############
 
 - name: ISFC
   longname: International Systemic-Functional Congress
