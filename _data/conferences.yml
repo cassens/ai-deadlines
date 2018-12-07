@@ -70,6 +70,9 @@
   startdate: "2019-03-11"
   enddate:   "2019-03-14"
   place: Daegu, Korea
+  rating:
+    - org: "Google h5 2018"
+      mark: "35"
   sub: [HCI, MM]
 
 - name: IUI
@@ -100,6 +103,8 @@
   rating:
     - org: CORE2018
       mark: "A"
+    - org: "Google h5 2018"
+      mark: "26"
   sub: [HCI, MM]
 
 - name: CHI
@@ -116,7 +121,7 @@
     - org: CORE2018
       mark: "A*"
     - org: "Google h5 2018"
-      mark: "85"
+      mark: "86"
   sub: HCI
 
 - name: ICASSP
@@ -372,6 +377,8 @@
   rating:
     - org: CORE2018
       mark: "B"
+    - org: "Google h5 2018"
+      mark: "25"
   sub: HCI
 
 - name: ICMI
@@ -387,6 +394,8 @@
   rating:
     - org: CORE2018
       mark: "B"
+    - org: "Google h5 2018"
+      mark: "30"
   sub: [HCI, MM]
 
 - name: SUI
@@ -551,6 +560,8 @@
   rating:
     - org: CORE2018
       mark: "A"
+    - org: "Google h5 2018"
+      mark: "26"
   sub: [HCI, MM]
 
 - name: IUI
@@ -578,6 +589,9 @@
   enddate:   "2020-03-26"
   timezone: GMT
   place: Cambridge, UK
+  rating:
+    - org: "Google h5 2018"
+      mark: "35"
   sub: [HCI, MM]
 
 - name: ESFLC
@@ -638,7 +652,7 @@
     - org: CORE2018
       mark: "A*"
     - org: "Google h5 2018"
-      mark: "85"
+      mark: "86"
   sub: HCI
 
 - name: MuC
