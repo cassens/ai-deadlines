@@ -5,20 +5,6 @@
 
 ############# Upcoming Conferences #############
 
-- name: HAI
-  longname: International Conference on Human-Agent Interaction
-  year: 2018
-  id: hai2018
-  link: http://hai-conference.net/hai2018/
-  timezone: GMT
-  deadline:  "2018-10-01 23:59:59"
-  startdate: "2018-12-15"
-  enddate:   "2018-12-18"
-  place: Southampton, UK
-  sub: HCI
-
-############# Conferences 2019 #############
-
 - name: AIES
   longname: "AAAI/ACM Conference on AI, Ethics, and Society"
   year: 2019
@@ -381,6 +367,18 @@
       mark: "25"
   sub: HCI
 
+- name: HAI
+  longname: International Conference on Human-Agent Interaction
+  year: 2019
+  id: hai2019
+  link: http://hai-conference.net/hai2019/
+  timezone: GMT
+  deadline:  "2019-05-14"
+  startdate: "2019-10-06"
+  enddate:   "2019-10-10"
+  place: Kyoto, Japan
+  sub: HCI
+
 - name: ICMI
   longname: International Conference on Multimodal Interaction
   year: 2019
@@ -520,18 +518,6 @@
     - org: "Google h5 2018"
       mark: "21"
   sub: [NLP, LING]
-
-- name: HAI
-  longname: International Conference on Human-Agent Interaction
-  year: 2019
-  id: hai2019
-  link: http://hai-conference.net/hai2019/
-  timezone: GMT
-  deadline:  TBA
-  startdate: TBA
-  enddate:   "2019"
-  place: TBA
-  sub: HCI
 
 - name: MRC
   longname: Workshop Modelling and Reasoning in Context
