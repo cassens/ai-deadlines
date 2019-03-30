@@ -5,93 +5,17 @@
 
 ############# Upcoming Conferences #############
 
-- name: AIES
-  longname: "AAAI/ACM Conference on AI, Ethics, and Society"
-  year: 2019
-  id: aies2019
-  link: http://www.aies-conference.com/
-  timezone: GMT
-  deadline:  "2018-11-02 23:59:59"
-  startdate: "2019-01-27"
-  enddate:   "2019-01-28"
-  place: Honolulu, Hawaii, USA
-  sub: AI
-
-- name: AAAI
-  longname: Association for the Advancement of Artificial Intelligence
-  year: 2019
-  id: aaai2019
-  link: https://aaai.org/Conferences/AAAI-19/
-  timezone: Etc/GMT+10
-  deadline:  "2018-09-05 23:59:59"
-  startdate: "2019-01-27"
-  enddate:   "2019-02-01"
-  place: Honolulu, Hawaii, USA
-  rating:
-    - org: CORE2018
-      mark: "A*"
-    - org: "Google h5 2018"
-      mark: "56"
-  sub: AI
-
-- name: LAK
-  longname: International Learning Analytics and Knowledge
-  year: 2019
-  id: lak2019
-  link: https://lak19.solaresearch.org/
-  timezone: America/Los_Angeles
-  deadline:  "2018-10-01 11:59:59"
-  startdate: "2019-03-04"
-  enddate:   "2019-03-08"
-  place: Tempe, AZ, USA
-  sub: HCI
-
-- name: HRI
-  longname: ACM/IEEE International Conference on Human-Robot Interaction
-  year: 2019
-  id: hri2019
-  link: http://humanrobotinteraction.org/2019/
-  timezone: GMT
-  deadline:  "2018-10-01 23:59:59"
-  startdate: "2019-03-11"
-  enddate:   "2019-03-14"
-  place: Daegu, Korea
-  rating:
-    - org: "Google h5 2018"
-      mark: "35"
-  sub: [HCI, MM]
-
-- name: IUI
-  longname: ACM International Conference on Intelligent User Interfaces
-  year: 2019
-  id: iui2019
-  link: http://iui.acm.org/2019/
-  timezone: America/Los_Angeles
-  deadline:  "2018-10-01 23:59:59"
-  startdate: "2019-03-17"
-  enddate:   "2019-03-20"
-  place: Los Angeles, California, USA
-  rating:
-    - org: CORE2018
-      mark: "A"
-  sub: [AI, HCI, MM]
-
-- name: TEI
-  longname: International Conference on Tangible, Embedded, and Embodied Interaction
-  year: 2019
-  id: tei2019
-  link: https://tei.acm.org/2019/
-  deadline:  "2018-08-08 23:59:59"
-  startdate: "2019-03-17"
-  enddate:   "2019-03-20"
-  timezone: GMT
-  place: Tempe, AZ, USA
-  rating:
-    - org: CORE2018
-      mark: "A"
-    - org: "Google h5 2018"
-      mark: "26"
-  sub: [HCI, MM]
+#- name: AIES
+  #longname: "AAAI/ACM Conference on AI, Ethics, and Society"
+  #year: 2019
+  #id: aies2019
+  #link: http://www.aies-conference.com/
+  #timezone: GMT
+  #deadline:  "2018-11-02 23:59:59"
+  #startdate: "2019-01-27"
+  #enddate:   "2019-01-28"
+  #place: Honolulu, Hawaii, USA
+  #sub: AI
 
 - name: CHI
   longname: ACM SIG on Computer-Human Interaction
@@ -251,7 +175,7 @@
   id: isd2019
   link: https://isd2019.isen.fr/
   timezone: GMT
-  deadline:  "2019-04-01 23:59:59"
+  deadline:  "2019-04-15 23:59:59"
   startdate: "2019-08-28"
   enddate:   "2019-08-30"
   place: Toulon, France
@@ -302,15 +226,13 @@
   place: Hamburg, Germany
   sub: HCI
 
-############# Incomplete dates from here #############
-
 - name: ICCBR
   longname: International Conference on Case-Based Reasoning
   year: 2019
   id: iccbr2019
   link: http://iccbr2019.com/
   timezone: Europe/Berlin
-  deadline:  TBA
+  deadline:  "2019-04-12 23:59:59"
   startdate: "2019-09-08"
   enddate:   "2019-09-12"
   place: Otzenhausen, Germany
@@ -411,6 +333,8 @@
       mark: "30"
   sub: [HCI, MM]
 
+############# Incomplete dates from here #############
+
 - name: SUI
   longname: Symposium on Spatial User Interaction
   year: 2019
@@ -461,7 +385,7 @@
   id: iss2019
   link: http://iss.acm.org/2019/
   timezone: America/Los_Angeles
-  deadline: TBA
+  deadline: "2019-06-28 23:59:59"
   startdate: "2019-11-10"
   enddate:   "2019-11-13"
   place: Daejeon, Korea
@@ -476,7 +400,7 @@
   id: vrst2019
   link: http://vrst.acm.org/vrst2019/
   timezone: America/Los_Angeles
-  deadline: TBA
+  deadline: "2019-07-19 23:59:59"
   startdate: "2019-11-12"
   enddate:   "2019-11-15"
   place: Parramatta, Australia
@@ -491,7 +415,7 @@
   id: ami2019
   link: http://ami-conferences.org/2019/
   timezone: Etc/GMT-12
-  deadline: TBA
+  deadline: "2019-06-10 23:59:59"
   startdate: "2019-11-13"
   enddate:   "2019-11-15"
   place: Rome, Italy
@@ -522,10 +446,10 @@
   year: 2019
   id: conll2019
   link: http://www.conll.org/
-  deadline: TBA
+  deadline: "2019-05-31 23:59:59"
   timezone: Etc/GMT-12
-  startdate: TBA
-  enddate:   "2019"
+  startdate: "2019-11-03"
+  enddate:   "2019-11-04"
   place: Hong Kong, China
   rating:
     - org: CORE2018
@@ -547,6 +471,23 @@
   sub: [AI, HCI, AMI, LING, COG]
 
 ############# Conferences 2020 #############
+
+- name: AAAI
+  longname: Association for the Advancement of Artificial Intelligence
+  year: 2020
+  id: aaai2020
+  link: https://aaai.org/Conferences/AAAI-20/
+  timezone: Etc/GMT+10
+  deadline:  TBA
+  startdate: "2020-02-07"
+  enddate:   "2020-02-12"
+  place: New York, NY, USA
+  rating:
+    - org: CORE2018
+      mark: "A*"
+    - org: "Google h5 2018"
+      mark: "56"
+  sub: AI
 
 - name: TEI
   longname: International Conference on Tangible, Embedded, and Embodied Interaction
@@ -696,6 +637,18 @@
   sub: [HCI, MM]
 
 ############# Conferences 2020 tba #############
+
+- name: LAK
+  longname: International Learning Analytics and Knowledge
+  year: 2020
+  id: lak2020
+  link: https://lak20.solaresearch.org/
+  timezone: America/Los_Angeles
+  deadline:  TBA
+  startdate: TBA
+  enddate:   "2020"
+  place: Frankfurt, Germany
+  sub: HCI
 
 - name: ISFC
   longname: International Systemic-Functional Congress
