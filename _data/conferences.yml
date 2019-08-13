@@ -219,7 +219,7 @@
   id: sui2019
   link: http://sui.acm.org/2019/
   timezone: America/Los_Angeles
-  startdate: "2019-07-08"
+  deadline:  "2019-07-08 23:59:59"
   startdate: "2019-10-19"
   enddate:   "2019-10-20"
   place: New Orleans, LA, US
