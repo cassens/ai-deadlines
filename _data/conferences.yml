@@ -17,140 +17,20 @@
   #place: Honolulu, Hawaii, USA
   #sub: AI
 
-- name: CHI
-  longname: ACM SIG on Computer-Human Interaction
-  year: 2019
-  id: chi2019
-  link: http://chi2019.acm.org/
-  timezone: America/Los_Angeles
-  deadline:  "2018-09-14 11:59:59"
-  startdate: "2019-05-04"
-  enddate:   "2019-05-09"
-  place: Glasgow, UK
-  rating:
-    - org: CORE2018
-      mark: "A*"
-    - org: "Google h5 2018"
-      mark: "86"
-  sub: HCI
-
-- name: ICASSP
-  longname: International Conference on Acoustics, Speech, and Signal Processing
-  year: 2019
-  id: icassp2019
-  link: http://icassp2019.com/
-  timezone: GMT
-  deadline:  "2018-10-29 23:59:59"
-  startdate: "2019-05-12"
-  enddate:   "2019-05-17"
-  place: Brighton, UK
-  rating:
-    - org: CORE2018
-      mark: "B"
-    - org: "Google h5 2018"
-      mark: "67"
-  sub: MM
-
-- name: AAMAS
-  longname: Autonomous Agents and Multiagent Systems
-  year: 2019
-  id: aamas2019
-  link: http://aamas2019.encs.concordia.ca/
-  timezone: Etc/GMT+12
-  deadline:  "2018-11-12 23:59:59"
-  startdate: "2019-05-13"
-  enddate:   "2019-05-17"
-  place: Montreal, Canada
-  rating:
-    - org: CORE2018
-      mark: "A*"
-  sub: AI
-
-- name: AIME
-  longname: Conference on Artificial Intelligence in Medicine
-  year: 2019
-  id: aime2019
-  link: http://aime19.aimedicine.info/
-  timezone: GMT
-  deadline:  "2019-01-15 23:59:59"
-  startdate: "2019-06-26"
-  enddate:   "2019-06-29"
-  place: Poznan, Poland
-  rating:
-    - org: CORE2018
-      mark: "B"
-  sub: AI
-
-- name: ESFLC
-  longname: European Systemic Functional Linguistics Conference
-  year: 2019
-  id: esflc2019
-  link: https://sites.ipleiria.pt/esflc2019/
-  timezone: Etc/GMT+12
-  deadline:  "2019-01-25 23:59:59"
-  startdate: "2019-07-03"
-  enddate:   "2019-07-05"
-  place: Leiria, Portugal
-  sub: LING
-
-- name: ICME
-  longname: IEEE International Conference on Multimedia and Expo
-  year: 2019
-  id: icme2019
-  link: http://www.icme2019.org/
-  deadline:  "2018-11-26 23:59:59"
-  startdate: "2019-07-08"
-  enddate:   "2019-07-12"
-  timezone: GMT
-  place: Shanghai, China
-  rating:
-    - org: CORE2018
-      mark: "B"
-  sub: MM
-
-- name: CogSci
-  longname: Annual Meeting of the Cognitive Science Society
-  year: 2019
-  id: cogsci2019
-  link: http://www.cognitivesciencesociety.org/conference/cogsci-2019/
-  timezone: Etc/GMT-11
-  deadline:  "2019-02-01 23:59:59"
-  startdate: "2019-07-24"
-  enddate:   "2019-07-27"
-  place: Montréal, Canada
-  rating:
-    - org: CORE2018
-      mark: "A"
-  sub: COG
-
-- name: ACL
-  longname: Annual Meeting of the Association for Computational Linguistics
-  year: 2019
-  id: acl2019
-  link: http://acl2019.org/
-  timezone: Etc/GMT+12
-  deadline:  "2019-03-04 23:59:59"
-  startdate: "2019-07-28"
-  enddate:   "2019-08-02"
-  place: Florence, Italy
-  rating:
-    - org: CORE2018
-      mark: "A*"
-    - org: "Google h5 2018"
-      mark: "67"
-  sub: [NLP, LING]
-
-- name: ISFC
-  longname: International Systemic-Functional Congress
-  year: 2019
-  id: isfc2019
-  link: http://letras.uc.cl/letras/isfc2019santiagochile/en/important-dates
-  timezone: Etc/GMT+12
-  deadline:  "2017-12-17 23:59:59"
-  startdate: "2019-07-22"
-  enddate:   "2019-07-26"
-  place: Santiago, Chile
-  sub: LING
+#- name: AIME
+  #longname: Conference on Artificial Intelligence in Medicine
+  #year: 2019
+  #id: aime2019
+  #link: http://aime19.aimedicine.info/
+  #timezone: GMT
+  #deadline:  "2019-01-15 23:59:59"
+  #startdate: "2019-06-26"
+  #enddate:   "2019-06-29"
+  #place: Poznan, Poland
+  #rating:
+    #- org: CORE2018
+      #mark: "B"
+  #sub: AI
 
 - name: IJCAI
   longname: International Joint Conference on Artificial Intelligence
@@ -333,15 +213,13 @@
       mark: "30"
   sub: [HCI, MM]
 
-############# Incomplete dates from here #############
-
 - name: SUI
   longname: Symposium on Spatial User Interaction
   year: 2019
   id: sui2019
   link: http://sui.acm.org/2019/
   timezone: America/Los_Angeles
-  deadline: TBA
+  startdate: "2019-07-08"
   startdate: "2019-10-19"
   enddate:   "2019-10-20"
   place: New Orleans, LA, US
@@ -439,15 +317,13 @@
       mark: "B"
   sub: HCI
 
-############# Conferences 2019 tba #############
-
 - name: CoNLL
   longname: SIGNLL Conference on Computational Natural Language Learning
   year: 2019
   id: conll2019
   link: http://www.conll.org/
-  deadline: "2019-05-31 23:59:59"
   timezone: Etc/GMT-12
+  deadline: "2019-05-31 23:59:59"
   startdate: "2019-11-03"
   enddate:   "2019-11-04"
   place: Hong Kong, China
@@ -458,18 +334,6 @@
       mark: "21"
   sub: [NLP, LING]
 
-- name: MRC
-  longname: Workshop Modelling and Reasoning in Context
-  year: 2019
-  id: mrc2019
-  link: http://mrc.kriwi.de/
-  timezone: Etc/GMT+12
-  deadline:  TBA
-  startdate: TBA
-  enddate:   "2019"
-  place: TBA
-  sub: [AI, HCI, AMI, LING, COG]
-
 ############# Conferences 2020 #############
 
 - name: AAAI
@@ -478,7 +342,7 @@
   id: aaai2020
   link: https://aaai.org/Conferences/AAAI-20/
   timezone: Etc/GMT+10
-  deadline:  TBA
+  deadline:  "2019-08-30"
   startdate: "2020-02-07"
   enddate:   "2020-02-12"
   place: New York, NY, USA
@@ -494,7 +358,7 @@
   year: 2020
   id: tei2020
   link: https://tei.acm.org/2020/
-  deadline:  TBA
+  deadline:  "2019-08-10"
   startdate: "2020-02-09"
   enddate:   "2020-02-13"
   timezone: GMT
@@ -510,8 +374,8 @@
   longname: ACM International Conference on Intelligent User Interfaces
   year: 2020
   id: iui2020
-  link: http://iui.acm.org/
-  deadline: TBA
+  link: https://iui.acm.org/2020/
+  deadline:  "2019-10-01"
   startdate: "2020-03-17"
   enddate:   "2020-03-20"
   timezone: GMT
@@ -526,7 +390,7 @@
   year: 2020
   id: hri2020
   link: http://humanrobotinteraction.org/2020/
-  deadline: TBA
+  deadline:  "2019-10-01"
   startdate: "2020-03-23"
   enddate:   "2020-03-26"
   timezone: GMT
@@ -535,6 +399,82 @@
     - org: "Google h5 2018"
       mark: "35"
   sub: [HCI, MM]
+
+- name: LAK
+  longname: International Learning Analytics and Knowledge
+  year: 2020
+  id: lak2020
+  link: https://lak20.solaresearch.org/
+  timezone: America/Los_Angeles
+  deadline:  "2019-10-01 23:59:59"
+  startdate: "2020-03-23"
+  enddate:   "2020-03-27"
+  place: Frankfurt, Germany
+  sub: HCI
+
+- name: ICASSP
+  longname: International Conference on Acoustics, Speech, and Signal Processing
+  year: 2020
+  id: icassp2020
+  link: https://2020.ieeeicassp.org/
+  timezone: GMT
+  deadline:  "2019-10-21 23:59:59"
+  startdate: "2020-05-04"
+  enddate:   "2020-05-08"
+  place: Barcelona, Spain
+  rating:
+    - org: CORE2018
+      mark: "B"
+    - org: "Google h5 2018"
+      mark: "67"
+  sub: MM
+
+- name: AAMAS
+  longname: Autonomous Agents and Multiagent Systems
+  year: 2020
+  id: aamas2020
+  link: https://aamas2020.conference.auckland.ac.nz/
+  timezone: Etc/GMT+12
+  deadline:  "2019-11-12"
+  startdate: "2020-05-09"
+  enddate:   "2020-05-13"
+  place: Auckland, New Zealand
+  rating:
+    - org: CORE2018
+      mark: "A*"
+  sub: AI
+
+- name: LREC
+  longname: Language Resources and Evaluation
+  year: 2020
+  id: lrec2020
+  link: https://lrec2020.lrec-conf.org/en/
+  timezone: Etc/GMT+12
+  deadline:  "2019-11-25 23:59:59"
+  startdate: "2020-05-11"
+  enddate:   "2020-05-16"
+  place: TBA
+  rating:
+    - org: CORE2018
+      mark: "C"
+    - org: "Google h5 2018"
+      mark: "43"
+  sub: LING
+  
+- name: ECAI
+  longname: European Conference on Artificial Intelligence
+  year: 2020
+  id: ecai2020
+  link: http://ecai2020.eu/
+  deadline:  "2019-11-15 23:59:59"
+  startdate: "2020-06-08"
+  enddate:   "2020-06-12"
+  timezone: Etc/GMT-12
+  place: Santiago de Compostela, Spain
+  rating:
+    - org: CORE2018
+      mark: "A"
+  sub: AI
 
 - name: ESFLC
   longname: European Systemic Functional Linguistics Conference
@@ -548,16 +488,50 @@
   place: Sheffield, UK
   sub: LING
 
+- name: ACL
+  longname: Annual Meeting of the Association for Computational Linguistics
+  year: 2020
+  id: acl2020
+  link: https://acl2020.org/
+  timezone: Etc/GMT+12
+  deadline:  TBA
+  startdate: "2020-07-05"
+  enddate:   "2020-07-10"
+  place: Seattle, USA
+  rating:
+    - org: CORE2018
+      mark: "A*"
+    - org: "Google h5 2018"
+      mark: "67"
+  sub: [NLP, LING]
+
+- name: ICME
+  longname: IEEE International Conference on Multimedia and Expo
+  year: 2020
+  id: icme2020
+  link: http://www.2020.ieeeicme.org/
+  deadline:  "2019-11-29 23:59:59"
+  startdate: "2020-07-06"
+  enddate:   "2020-07-10"
+  timezone: GMT
+  place: London, UK
+  rating:
+    - org: CORE2018
+      mark: "B"
+  sub: MM
+
+############# Incomplete dates from here #############
+
 - name: IJCAI-PRICAI
   longname: International Joint Conference on Artificial Intelligence
   year: 2020
   id: ijcai2020
   link: https://www.ijcai-20.org/
   deadline: TBA
-  startdate: "2020-08-15"
-  enddate:   "2020-08-21"
+  startdate: "2020-07-11"
+  enddate:   "2020-07-17"
   timezone: Etc/GMT+12
-  place: Nagoya, Japan
+  place: Yokohama, Japan
   rating:
     - org: CORE2018
       mark: "A*"
@@ -565,20 +539,33 @@
       mark: "45"
   sub: AI
 
-- name: ECAI
-  longname: European Conference on Artificial Intelligence
+- name: ISFC
+  longname: International Systemic-Functional Congress
   year: 2020
-  id: ecai2020
-  link: https://www.eurai.org/
+  id: isfc2020
+  link: http://www.isfla.org/Systemics/Conferences/Timetable.html
   deadline: TBA
-  startdate: "2020-08-24"
-  enddate:   "2020-08-28"
   timezone: Etc/GMT+12
-  place: Santiago de Compostela, Spain
+  date: July 2020
+  startdate: "2020-07-13"
+  enddate:   "2020-07-17"
+  place: Shenzhen, China
+  sub: LING
+
+- name: CogSci
+  longname: Annual Meeting of the Cognitive Science Society
+  year: 2020
+  id: cogsci2020
+  link: https://cognitivesciencesociety.org/future-conferences/
+  timezone: Etc/GMT-11
+  deadline:  "2019-11-29 23:59:59"
+  startdate: "2020-07-29"
+  enddate:   "2020-08-01"
+  place: Toronto, Canada
   rating:
     - org: CORE2018
       mark: "A"
-  sub: AI
+  sub: COG
 
 - name: CHI
   longname: ACM SIG on Computer-Human Interaction
@@ -602,7 +589,7 @@
   year: 2020
   id: muc2020
   link: http://muc2020.mensch-und-computer.de/
-  deadline:  TBA
+  deadline:  "2020-03-29 23:59:59"
   startdate: "2020-09-06"
   enddate:   "2020-09-09"
   timezone: Europe/Berlin
@@ -614,7 +601,7 @@
   year: 2020
   id: nordichi2020
   link: http://nordichi2020.org/
-  deadline: TBA
+  deadline:  "2020-04-20 23:59:59"
   startdate: "2020-10-25"
   enddate:   "2020-10-29"
   timezone: America/Los_Angeles
@@ -638,31 +625,6 @@
 
 ############# Conferences 2020 tba #############
 
-- name: LAK
-  longname: International Learning Analytics and Knowledge
-  year: 2020
-  id: lak2020
-  link: https://lak20.solaresearch.org/
-  timezone: America/Los_Angeles
-  deadline:  TBA
-  startdate: TBA
-  enddate:   "2020"
-  place: Frankfurt, Germany
-  sub: HCI
-
-- name: ISFC
-  longname: International Systemic-Functional Congress
-  year: 2020
-  id: isfc2020
-  link: http://www.isfla.org/Systemics/Conferences/Timetable.html
-  deadline: TBA
-  timezone: Etc/GMT+12
-  date: July 2020
-  startdate: TBA
-  enddate:   "July 2020"
-  place: Guangzhou, China
-  sub: LING
-
 - name: COLING
   longname: Conference on Computational Linguistics
   year: 2020
@@ -681,22 +643,6 @@
       mark: "35"
   sub: [NLP, LING]
 
-- name: AAMAS
-  longname: Autonomous Agents and Multiagent Systems
-  year: 2020
-  id: aamas2020
-  link: http://www.ifaamas.org/
-  deadline: TBA
-  timezone: Etc/GMT+12
-  date: 2020, TBA
-  startdate: TBA
-  enddate:   "2020"
-  place: Auckland, New Zealand
-  rating:
-    - org: CORE2018
-      mark: "A*"
-  sub: AI
-
 - name: ICCBR
   longname: International Conference on Case-Based Reasoning
   year: 2020
@@ -713,24 +659,6 @@
       mark: "B"
   sub: AI
 
-- name: LREC
-  longname: Language Resources and Evaluation
-  year: 2020
-  id: lrec2020
-  link: http://www.lrec-conf.org/
-  deadline: TBA
-  timezone: Etc/GMT+12
-  date: 2020, TBA
-  startdate: TBA
-  enddate:   "2020"
-  place: TBA
-  rating:
-    - org: CORE2018
-      mark: "C"
-    - org: "Google h5 2018"
-      mark: "43"
-  sub: LING
-  
 - name: LinC
   longname:  LinC Summer School and Workshop
   year: 2020
@@ -742,6 +670,18 @@
   timezone: Europe/Berlin
   place: Madrid, Spain
   sub: LING
+
+- name: MRC
+  longname: Workshop Modelling and Reasoning in Context
+  year: 2020
+  id: mrc2020
+  link: http://mrc.kriwi.de/
+  timezone: Etc/GMT+12
+  deadline:  TBA
+  startdate: TBA
+  enddate:   "2020"
+  place: TBA
+  sub: [AI, HCI, AMI, LING, COG]
 
 ############# Conferences 2021 #############
 
