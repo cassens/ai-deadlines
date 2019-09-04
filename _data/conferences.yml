@@ -5,18 +5,6 @@
 
 ############# Upcoming Conferences #############
 
-#- name: AIES
-  #longname: "AAAI/ACM Conference on AI, Ethics, and Society"
-  #year: 2019
-  #id: aies2019
-  #link: http://www.aies-conference.com/
-  #timezone: GMT
-  #deadline:  "2018-11-02 23:59:59"
-  #startdate: "2019-01-27"
-  #enddate:   "2019-01-28"
-  #place: Honolulu, Hawaii, USA
-  #sub: AI
-
 #- name: AIME
   #longname: Conference on Artificial Intelligence in Medicine
   #year: 2019
@@ -32,50 +20,50 @@
       #mark: "B"
   #sub: AI
 
-- name: ISD
-  longname: International Conference on Information Systems Development
-  year: 2019
-  id: isd2019
-  link: https://isd2019.isen.fr/
-  timezone: GMT
-  deadline:  "2019-04-15 23:59:59"
-  startdate: "2019-08-28"
-  enddate:   "2019-08-30"
-  place: Toulon, France
-  rating:
-    - org: CORE2018
-      mark: "A"
-  sub: HCI
+#- name: ISD
+  #longname: International Conference on Information Systems Development
+  #year: 2019
+  #id: isd2019
+  #link: https://isd2019.isen.fr/
+  #timezone: GMT
+  #deadline:  "2019-04-15 23:59:59"
+  #startdate: "2019-08-28"
+  #enddate:   "2019-08-30"
+  #place: Toulon, France
+  #rating:
+    #- org: CORE2018
+      #mark: "A"
+  #sub: HCI
 
-- name: Interact
-  longname: TC.13 International Conference on Human-Computer Interaction
-  year: 2019
-  id: interact2019
-  link: https://interact2019.org/
-  timezone: GMT
-  deadline:  "2019-01-14 23:59:59"
-  startdate: "2019-09-02"
-  enddate:   "2019-09-06"
-  place: Paphos, Cyprus
-  rating:
-    - org: CORE2018
-      mark: "A"
-  sub: HCI
+#- name: Interact
+  #longname: TC.13 International Conference on Human-Computer Interaction
+  #year: 2019
+  #id: interact2019
+  #link: https://interact2019.org/
+  #timezone: GMT
+  #deadline:  "2019-01-14 23:59:59"
+  #startdate: "2019-09-02"
+  #enddate:   "2019-09-06"
+  #place: Paphos, Cyprus
+  #rating:
+    #- org: CORE2018
+      #mark: "A"
+  #sub: HCI
 
-- name: ACII
-  longname: International Conference on Affective Computing & Intelligent Interaction
-  year: 2019
-  id: acii2019
-  link: http://acii-conf.org/2019/
-  timezone: Europe/Berlin
-  deadline:  "2019-04-12 23:59:59"
-  startdate: "2019-09-03"
-  enddate:   "2019-09-06"
-  place: Cambridge, UK
-  rating:
-    - org: CORE2018
-      mark: "C"
-  sub: AI
+#- name: ACII
+  #longname: International Conference on Affective Computing & Intelligent Interaction
+  #year: 2019
+  #id: acii2019
+  #link: http://acii-conf.org/2019/
+  #timezone: Europe/Berlin
+  #deadline:  "2019-04-12 23:59:59"
+  #startdate: "2019-09-03"
+  #enddate:   "2019-09-06"
+  #place: Cambridge, UK
+  #rating:
+    #- org: CORE2018
+      #mark: "C"
+  #sub: AI
 
 - name: MuC
   longname: Mensch und Computer
@@ -341,6 +329,18 @@
   enddate:   "2020-01-30"
   timezone: Europe/Berlin
   place: Barcelona, Spain
+  sub: AI
+
+- name: AIES
+  longname: "AAAI/ACM Conference on AI, Ethics, and Society"
+  year: 2020
+  id: aies2020
+  link: http://www.aies-conference.com/
+  timezone: GMT
+  deadline:  "2019-11-04 23:59:59"
+  startdate: "2020-02-07"
+  enddate:   "2020-02-08"
+  place: New York, NY, USA
   sub: AI
 
 - name: AAAI
@@ -819,6 +819,21 @@
       mark: "B"
     - org: "Google h5 2018"
       mark: "25"
+  sub: HCI
+
+- name: Interact
+  longname: TC.13 International Conference on Human-Computer Interaction
+  year: 2021
+  id: interact2021
+  link: http://ifip-tc13.org/interact/
+  timezone: GMT
+  deadline:  TBA
+  startdate: TBA
+  enddate:   "2021"
+  place: TBA
+  rating:
+    - org: CORE2018
+      mark: "A"
   sub: HCI
 
 - name: ISD
