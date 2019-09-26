@@ -65,66 +65,66 @@
       #mark: "C"
   #sub: AI
 
-- name: MuC
-  longname: Mensch und Computer
-  year: 2019
-  id: muc2019
-  link: http://muc2019.mensch-und-computer.de/
-  deadline:  "2019-04-05 23:59:59"
-  startdate: "2019-09-08"
-  enddate:   "2019-09-11"
-  timezone: Europe/Berlin
-  place: Hamburg, Germany
-  sub: HCI
+#- name: MuC
+  #longname: Mensch und Computer
+  #year: 2019
+  #id: muc2019
+  #link: http://muc2019.mensch-und-computer.de/
+  #deadline:  "2019-04-05 23:59:59"
+  #startdate: "2019-09-08"
+  #enddate:   "2019-09-11"
+  #timezone: Europe/Berlin
+  #place: Hamburg, Germany
+  #sub: HCI
 
-- name: ICCBR
-  longname: International Conference on Case-Based Reasoning
-  year: 2019
-  id: iccbr2019
-  link: http://iccbr2019.com/
-  timezone: Europe/Berlin
-  deadline:  "2019-04-12 23:59:59"
-  startdate: "2019-09-08"
-  enddate:   "2019-09-12"
-  place: Otzenhausen, Germany
-  rating:
-    - org: CORE2018
-      mark: "B"
-  sub: AI
+#- name: ICCBR
+  #longname: International Conference on Case-Based Reasoning
+  #year: 2019
+  #id: iccbr2019
+  #link: http://iccbr2019.com/
+  #timezone: Europe/Berlin
+  #deadline:  "2019-04-12 23:59:59"
+  #startdate: "2019-09-08"
+  #enddate:   "2019-09-12"
+  #place: Otzenhausen, Germany
+  #rating:
+    #- org: CORE2018
+      #mark: "B"
+  #sub: AI
 
-- name: Interspeech
-  longname: Interspeech
-  year: 2019
-  id: interspeech2010
-  link: http://interspeech2019.org/
-  timezone: GMT
-  deadline: "2019-03-29 23:59:59"
-  startdate: "2019-09-15"
-  enddate:   "2019-09-19"
-  place: Graz, Austria
-  rating:
-    - org: CORE2018
-      mark: "A"
-    - org: "Google h5 2018"
-      mark: "47"
-  sub: MM
+#- name: Interspeech
+  #longname: Interspeech
+  #year: 2019
+  #id: interspeech2010
+  #link: http://interspeech2019.org/
+  #timezone: GMT
+  #deadline: "2019-03-29 23:59:59"
+  #startdate: "2019-09-15"
+  #enddate:   "2019-09-19"
+  #place: Graz, Austria
+  #rating:
+    #- org: CORE2018
+      #mark: "A"
+    #- org: "Google h5 2018"
+      #mark: "47"
+  #sub: MM
 
-- name: Ubicomp
-  longname: ACM International Joint Conference on Pervasive and Ubiquitous Computing
-  year: 2019
-  id: ubicomp2019
-  link: http://ubicomp.org/
-  deadline:  "2019-05-15 23:59:59"
-  startdate: "2019-09-19"
-  enddate:   "2019-09-20"
-  timezone: GMT
-  place: London, UK
-  rating:
-    - org: CORE2018
-      mark: "A*"
-    - org: "Google h5 2018"
-      mark: "52"
-  sub: [HCI, MM]
+#- name: Ubicomp
+  #longname: ACM International Joint Conference on Pervasive and Ubiquitous Computing
+  #year: 2019
+  #id: ubicomp2019
+  #link: http://ubicomp.org/
+  #deadline:  "2019-05-15 23:59:59"
+  #startdate: "2019-09-19"
+  #enddate:   "2019-09-20"
+  #timezone: GMT
+  #place: London, UK
+  #rating:
+    #- org: CORE2018
+      #mark: "A*"
+    #- org: "Google h5 2018"
+      #mark: "52"
+  #sub: [HCI, MM]
 
 - name: BreMM
   longname: Bremen Conference on Multimodality
@@ -493,6 +493,18 @@
   enddate:   "2020-07-04"
   timezone: Etc/GMT+12
   place: Sheffield, UK
+  sub: LING
+
+- name: IACS
+  longname: Conference of the International Association for Cognitive Semiotics
+  year: 2020
+  id: iacs2020
+  link: https://iacs4.signges.de/
+  timezone: GMT
+  deadline:  "2019-11-15 23:59:59"
+  startdate: "2020-07-02"
+  enddate:   "2020-07-02"
+  place: Aachen, Germany
   sub: LING
 
 - name: ACL
