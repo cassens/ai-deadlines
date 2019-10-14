@@ -20,36 +20,6 @@
       #mark: "B"
   #sub: AI
 
-#- name: ISD
-  #longname: International Conference on Information Systems Development
-  #year: 2019
-  #id: isd2019
-  #link: https://isd2019.isen.fr/
-  #timezone: GMT
-  #deadline:  "2019-04-15 23:59:59"
-  #startdate: "2019-08-28"
-  #enddate:   "2019-08-30"
-  #place: Toulon, France
-  #rating:
-    #- org: CORE2018
-      #mark: "A"
-  #sub: HCI
-
-#- name: Interact
-  #longname: TC.13 International Conference on Human-Computer Interaction
-  #year: 2019
-  #id: interact2019
-  #link: https://interact2019.org/
-  #timezone: GMT
-  #deadline:  "2019-01-14 23:59:59"
-  #startdate: "2019-09-02"
-  #enddate:   "2019-09-06"
-  #place: Paphos, Cyprus
-  #rating:
-    #- org: CORE2018
-      #mark: "A"
-  #sub: HCI
-
 #- name: ACII
   #longname: International Conference on Affective Computing & Intelligent Interaction
   #year: 2019
@@ -63,33 +33,6 @@
   #rating:
     #- org: CORE2018
       #mark: "C"
-  #sub: AI
-
-#- name: MuC
-  #longname: Mensch und Computer
-  #year: 2019
-  #id: muc2019
-  #link: http://muc2019.mensch-und-computer.de/
-  #deadline:  "2019-04-05 23:59:59"
-  #startdate: "2019-09-08"
-  #enddate:   "2019-09-11"
-  #timezone: Europe/Berlin
-  #place: Hamburg, Germany
-  #sub: HCI
-
-#- name: ICCBR
-  #longname: International Conference on Case-Based Reasoning
-  #year: 2019
-  #id: iccbr2019
-  #link: http://iccbr2019.com/
-  #timezone: Europe/Berlin
-  #deadline:  "2019-04-12 23:59:59"
-  #startdate: "2019-09-08"
-  #enddate:   "2019-09-12"
-  #place: Otzenhausen, Germany
-  #rating:
-    #- org: CORE2018
-      #mark: "B"
   #sub: AI
 
 #- name: Interspeech
@@ -109,80 +52,29 @@
       #mark: "47"
   #sub: MM
 
-#- name: Ubicomp
-  #longname: ACM International Joint Conference on Pervasive and Ubiquitous Computing
+#- name: BreMM
+  #longname: Bremen Conference on Multimodality
   #year: 2019
-  #id: ubicomp2019
-  #link: http://ubicomp.org/
-  #deadline:  "2019-05-15 23:59:59"
-  #startdate: "2019-09-19"
-  #enddate:   "2019-09-20"
+  #id: bremm2019
+  #link: https://www.mm2014.uni-bremen.de/
   #timezone: GMT
-  #place: London, UK
-  #rating:
-    #- org: CORE2018
-      #mark: "A*"
-    #- org: "Google h5 2018"
-      #mark: "52"
-  #sub: [HCI, MM]
+  #deadline:  "2018-12-05 23:59:59"
+  #startdate: "2019-09-25"
+  #enddate:   "2019-09-27"
+  #place: Bremen, Germany
+  #sub: [AI, LING]
 
-- name: BreMM
-  longname: Bremen Conference on Multimodality
-  year: 2019
-  id: bremm2019
-  link: https://www.mm2014.uni-bremen.de/
-  timezone: GMT
-  deadline:  "2018-12-05 23:59:59"
-  startdate: "2019-09-25"
-  enddate:   "2019-09-27"
-  place: Bremen, Germany
-  sub: [AI, LING]
-
-- name: MobileHCI
-  longname: International Conference on Human-Computer Interaction with Mobile Devices and Services
-  year: 2019
-  id: mobilehci2019
-  link: https://mobilehci.acm.org/2019/
-  deadline:  "2019-02-01 23:59:59"
-  startdate: "2019-10-01"
-  enddate:   "2019-10-04"
-  timezone: GMT
-  place: Taipei, Taiwan
-  rating:
-    - org: CORE2018
-      mark: "B"
-    - org: "Google h5 2018"
-      mark: "25"
-  sub: HCI
-
-- name: HAI
-  longname: International Conference on Human-Agent Interaction
-  year: 2019
-  id: hai2019
-  link: http://hai-conference.net/hai2019/
-  timezone: GMT
-  deadline:  "2019-05-14"
-  startdate: "2019-10-06"
-  enddate:   "2019-10-10"
-  place: Kyoto, Japan
-  sub: HCI
-
-- name: ICMI
-  longname: International Conference on Multimodal Interaction
-  year: 2019
-  id: icmi2019
-  link: http://icmi.acm.org/2019/
-  timezone: America/Los_Angeles
-  deadline:  "2019-05-01 23:59:59"
-  startdate: "2019-10-14"
-  enddate:   "2019-10-18"
-  place: Suzhou, China
-  rating:
-    - org: CORE2018
-      mark: "B"
-    - org: "Google h5 2018"
-      mark: "30"
-  sub: [HCI, MM]
+#- name: HAI
+  #longname: International Conference on Human-Agent Interaction
+  #year: 2019
+  #id: hai2019
+  #link: http://hai-conference.net/hai2019/
+  #timezone: GMT
+  #deadline:  "2019-05-14"
+  #startdate: "2019-10-06"
+  #enddate:   "2019-10-10"
+  #place: Kyoto, Japan
+  #sub: HCI
 
 - name: SUI
   longname: Symposium on Spatial User Interaction
@@ -304,6 +196,18 @@
     - org: "Google h5 2018"
       mark: "21"
   sub: [NLP, LING]
+
+- name: XAILA
+  longname: Workshop Explainable AI and Law at Jurix
+  year: 2019
+  id: xaila2019
+  link: http://xaila.geist.re/
+  timezone: Etc/GMT+12
+  deadline:  "2019-11-14 23:59:59"
+  startdate: "2019-12-11"
+  enddate:   "2019-12-11"
+  place: Madrid, Spain
+  sub: AI
 
 ############# Conferences 2020 #############
 
@@ -633,8 +537,8 @@
   id: ubicomp2020
   link: http://ubicomp.org/
   deadline:  "2020-05-15 23:59:59"
-  startdate: "2019-09-12"
-  enddate:   "2019-09-16"
+  startdate: "2020-09-12"
+  enddate:   "2020-09-16"
   timezone: GMT
   place: Cancun, Mexico
   rating:
