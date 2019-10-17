@@ -372,6 +372,21 @@
       mark: "43"
   sub: LING
   
+- name: ICCBR
+  longname: International Conference on Case-Based Reasoning
+  year: 2020
+  id: iccbr2020
+  link: http://iccbr20.org/
+  deadline: "2020-01-18 23:59:59"
+  timezone: Europe/Berlin
+  startdate: "2020-06-06"
+  enddate:   "2020-06-09"
+  place: Salamanca, Spain
+  rating:
+    - org: CORE2018
+      mark: "B"
+  sub: AI
+
 - name: ECAI
   longname: European Conference on Artificial Intelligence
   year: 2020
@@ -443,14 +458,12 @@
       mark: "B"
   sub: MM
 
-############# Incomplete dates from here #############
-
 - name: IJCAI-PRICAI
   longname: International Joint Conference on Artificial Intelligence
   year: 2020
   id: ijcai2020
   link: https://www.ijcai-20.org/
-  deadline: TBA
+  deadline:  "2020-01-15 23:59:59"
   startdate: "2020-07-11"
   enddate:   "2020-07-17"
   timezone: Etc/GMT+12
@@ -461,6 +474,8 @@
     - org: "Google h5 2018"
       mark: "45"
   sub: AI
+
+############# Incomplete dates from here #############
 
 - name: ISFC
   longname: International Systemic-Functional Congress
@@ -628,22 +643,6 @@
     - org: "Google h5 2018"
       mark: "35"
   sub: [NLP, LING]
-
-- name: ICCBR
-  longname: International Conference on Case-Based Reasoning
-  year: 2020
-  id: iccbr2020
-  link: http://iccbr.org/
-  deadline: TBA
-  timezone: Europe/Berlin
-  date: 2020, TBA
-  startdate: TBA
-  enddate:   "2020"
-  place: Salamanca, Spain
-  rating:
-    - org: CORE2018
-      mark: "B"
-  sub: AI
 
 - name: LinC
   longname:  LinC Summer School and Workshop
