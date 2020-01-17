@@ -582,7 +582,7 @@
   year: 2020
   id: mobilehci2020
   link: https://mobilehci.acm.org/2020/
-  deadline:  "2020-01-01 31:59:59"
+  deadline:  "2020-01-31 23:59:59"
   startdate: "2020-10-05"
   enddate:   "2020-10-08"
   timezone: GMT
@@ -600,7 +600,7 @@
   id: icmi2020
   link: http://icmi.acm.org/2020/
   timezone: America/Los_Angeles
-  deadline:  "2020-05-04 31:59:59"
+  deadline:  "2020-05-04 23:59:59"
   startdate: "2020-10-11"
   enddate:   "2020-10-15"
   place: Utrecht, The Netherlands
