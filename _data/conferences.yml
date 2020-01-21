@@ -322,7 +322,7 @@
   deadline:  "2019-11-25 23:59:59"
   startdate: "2020-05-11"
   enddate:   "2020-05-16"
-  place: TBA
+  place: Marseille, France
   rating:
     - org: CORE2018
       mark: "C"
@@ -666,6 +666,18 @@
   enddate:   "2020-11-13"
   place: Sydney, Australia
   sub: HCI
+
+- name: ICOM
+  longname: International Conference on Multimodality
+  year: 2020
+  id: icom2020
+  link: https://www.10icom.cl/en/
+  deadline: "2020-03-31 23:59:59"
+  startdate: "2020-11-11"
+  enddate:   "2020-11-13"
+  timezone: Etc/GMT+12
+  place: Valparaiso, Chile
+  sub: LING
 
 ############# Conferences 2020 tba #############
 
